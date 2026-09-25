@@ -1,0 +1,631 @@
+{
+    "id": "7538dee3-a3b4-4d72-96f4-bb10158605a2",
+    "title": "Radox Design Study V2",
+    "status": "completed",
+    "study_type": "layer",
+    "created_at": "2026-03-26T16:09:57.338608Z",
+    "background": "Radox is a brand of personal care products.\n\nIn this study, you will be shown different design approaches for a product.\n\nThe aim is to understand how each design is perceived, which elements stand out, and which approach is preferred overall.\n\nYour responses will help guide the final design directions.",
+    "main_question": "How appealing is this pack design to you?",
+    "orientation_text": "Welcome!\nYou will be shown a series of pack designs, one at a time. Some may look similar, others different—this is intentional.\n\nPlease evaluate each design independently based on your immediate reaction. Do not compare designs. There are no right or wrong answers—we are interested in your personal response.\n\nFor each design, you will be asked:\n“How appealing is this pack design to you?”\nPlease respond using the 5-point scale.",
+    "rating_scale": {
+        "min_value": 1,
+        "max_value": 5,
+        "min_label": "Not at all appealing",
+        "max_label": "Very appealing",
+        "middle_label": "Moderately appealing"
+    },
+    "study_config": {
+        "country": "United Kingdom",
+        "aspect_ratio": "9:16",
+        "age_distribution": {
+            "65+": 20.0,
+            "18 - 24": 0.0,
+            "25 - 34": 25.0,
+            "35 - 44": 25.0,
+            "45 - 54": 25.0,
+            "55 - 64": 25.0
+        },
+        "gender_distribution": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "number_of_respondents": 300
+    },
+    "classification_questions": [
+        {
+            "question_id": "dcf60c64-5",
+            "question_text": "Which is closest to what you want from a shower product?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 1,
+            "answer_options": [
+                {
+                    "id": "555f0617-a",
+                    "text": "Cleansing",
+                    "order": 1
+                },
+                {
+                    "id": "fd735cfc-7",
+                    "text": "Soothing",
+                    "order": 2
+                },
+                {
+                    "id": "422e23e3-1",
+                    "text": "Energizing",
+                    "order": 3
+                },
+                {
+                    "id": "2156adcb-0",
+                    "text": "Refreshing",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {},
+            "id": "8597f727-a687-4ad5-a0d8-a2e8e30ab567"
+        },
+        {
+            "question_id": "cb2b1006-4",
+            "question_text": "What matters most for your skin after showering?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 2,
+            "answer_options": [
+                {
+                    "id": "4026eee1-1",
+                    "text": "Clean",
+                    "order": 1
+                },
+                {
+                    "id": "5d284d08-f",
+                    "text": "Fresh",
+                    "order": 2
+                },
+                {
+                    "id": "e854c38e-c",
+                    "text": "Soft",
+                    "order": 3
+                },
+                {
+                    "id": "5d622529-0",
+                    "text": "Hydrated",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {},
+            "id": "af8cc677-63dc-4247-9261-a58a1c9d8acb"
+        },
+        {
+            "question_id": "fb841a56-2",
+            "question_text": "How do you want to feel mentally after using the product?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 3,
+            "answer_options": [
+                {
+                    "id": "33672a0d-3",
+                    "text": "Energised",
+                    "order": 1
+                },
+                {
+                    "id": "c0e0cd19-b",
+                    "text": "Calm",
+                    "order": 2
+                },
+                {
+                    "id": "d73b5abe-a",
+                    "text": "Refreshed",
+                    "order": 3
+                },
+                {
+                    "id": "0a4ea45c-f",
+                    "text": "Uplifted",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {},
+            "id": "68f2d193-9e0d-4236-b1ed-e6b76071dcce"
+        },
+        {
+            "question_id": "60ebe8a9-d",
+            "question_text": "What matters most about what is in the product?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 4,
+            "answer_options": [
+                {
+                    "id": "b995e07f-c",
+                    "text": "Minerals and herbs",
+                    "order": 1
+                },
+                {
+                    "id": "c379f745-8",
+                    "text": "Natural ingredients",
+                    "order": 2
+                },
+                {
+                    "id": "24380642-a",
+                    "text": "Specific ingredients",
+                    "order": 3
+                },
+                {
+                    "id": "10d99eb7-0",
+                    "text": "Not focused on ingredients",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {},
+            "id": "97ffcef5-d294-4681-bade-6b06cd159d37"
+        },
+        {
+            "question_id": "4948bbac-7",
+            "question_text": "What makes a product feel effective for you?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 5,
+            "answer_options": [
+                {
+                    "id": "4458c260-2",
+                    "text": "How it works",
+                    "order": 1
+                },
+                {
+                    "id": "986496a2-f",
+                    "text": "How it feels during use",
+                    "order": 2
+                },
+                {
+                    "id": "e7c21377-f",
+                    "text": "Results on your skin",
+                    "order": 3
+                },
+                {
+                    "id": "9699d692-3",
+                    "text": "The scent",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {},
+            "id": "8a339247-45ed-40f6-896b-687595a623cd"
+        },
+        {
+            "question_id": "1e48306c-e",
+            "question_text": "What aspect of sustainability matters most to you?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 6,
+            "answer_options": [
+                {
+                    "id": "344f4c6f-e",
+                    "text": "Recycled / refillable packaging",
+                    "order": 1
+                },
+                {
+                    "id": "f48c862a-1",
+                    "text": "Reducing plastic waste",
+                    "order": 2
+                },
+                {
+                    "id": "c617547f-4",
+                    "text": "Eco-conscious choice",
+                    "order": 3
+                },
+                {
+                    "id": "ad127d2f-c",
+                    "text": "Not important",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {},
+            "id": "b1f84bbd-8c8c-4b78-9780-2cefa8940263"
+        },
+        {
+            "question_id": "c3dafef3-c",
+            "question_text": "What builds trust in a product?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 7,
+            "answer_options": [
+                {
+                    "id": "8ab26b80-1",
+                    "text": "Long history / heritage",
+                    "order": 1
+                },
+                {
+                    "id": "88c8e096-6",
+                    "text": "Proven ingredients",
+                    "order": 2
+                },
+                {
+                    "id": "ad9ea07c-7",
+                    "text": "Skin results",
+                    "order": 3
+                },
+                {
+                    "id": "bf5bcef6-9",
+                    "text": "Cleansing performance",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {},
+            "id": "1ffab052-d652-4f38-b1f4-b46604420899"
+        }
+    ],
+    "element_count": 21,
+    "layers": [
+        {
+            "layer_id": "300d43b8-dfe6-4b22-88ec-c238d90f9467",
+            "name": "Designs",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 0,
+            "order": 0,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "5f9ed2fb-2783-4841-b509-9f75a87e5f57",
+                    "name": "current-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/1c766196c08d427aa88f93ae1bb9d8f2_current-blue.png",
+                    "alt_text": "current-blue",
+                    "order": 0
+                },
+                {
+                    "image_id": "8b6d7808-2037-4efa-ada4-dac032fcd284",
+                    "name": "current-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/baddddededd34bc383643fef5138d6e3_current-pink.png",
+                    "alt_text": "current-pink",
+                    "order": 1
+                },
+                {
+                    "image_id": "536e090c-dd54-419c-a12a-7dc1046d4d5c",
+                    "name": "design1-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e8b1a20db8fb410693d2f24ab41bf933_design1-blue.png",
+                    "alt_text": "design1-blue",
+                    "order": 2
+                },
+                {
+                    "image_id": "b0630573-a524-4c6d-ab28-27fff2994a67",
+                    "name": "design1-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/f064d2189ad14a94b83d051aa030d6fb_design1-pink.png",
+                    "alt_text": "design1-pink",
+                    "order": 3
+                },
+                {
+                    "image_id": "4f177818-6c52-43c4-8669-b760e0eeff7c",
+                    "name": "design2-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/3f10cb1ac2284908a9e3766a52626d29_design2-blue.png",
+                    "alt_text": "design2-blue",
+                    "order": 4
+                },
+                {
+                    "image_id": "4429f46e-23f5-49d7-ad49-1ae2363bc3c7",
+                    "name": "design2-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/1de28247280540238f60b82395cb0bd6_design2-pink.png",
+                    "alt_text": "design2-pink",
+                    "order": 5
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "5f9ed2fb-2783-4841-b509-9f75a87e5f57",
+                    "name": "current-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/1c766196c08d427aa88f93ae1bb9d8f2_current-blue.png",
+                    "alt_text": "current-blue",
+                    "order": 0
+                },
+                {
+                    "image_id": "8b6d7808-2037-4efa-ada4-dac032fcd284",
+                    "name": "current-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/baddddededd34bc383643fef5138d6e3_current-pink.png",
+                    "alt_text": "current-pink",
+                    "order": 1
+                },
+                {
+                    "image_id": "536e090c-dd54-419c-a12a-7dc1046d4d5c",
+                    "name": "design1-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e8b1a20db8fb410693d2f24ab41bf933_design1-blue.png",
+                    "alt_text": "design1-blue",
+                    "order": 2
+                },
+                {
+                    "image_id": "b0630573-a524-4c6d-ab28-27fff2994a67",
+                    "name": "design1-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/f064d2189ad14a94b83d051aa030d6fb_design1-pink.png",
+                    "alt_text": "design1-pink",
+                    "order": 3
+                },
+                {
+                    "image_id": "4f177818-6c52-43c4-8669-b760e0eeff7c",
+                    "name": "design2-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/3f10cb1ac2284908a9e3766a52626d29_design2-blue.png",
+                    "alt_text": "design2-blue",
+                    "order": 4
+                },
+                {
+                    "image_id": "4429f46e-23f5-49d7-ad49-1ae2363bc3c7",
+                    "name": "design2-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/1de28247280540238f60b82395cb0bd6_design2-pink.png",
+                    "alt_text": "design2-pink",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "layer_id": "b736e79c-ae87-455f-8eaa-6be9a8eeb179",
+            "name": "Text",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 1,
+            "order": 1,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "5ffd751e-1f3e-45c0-9f27-34a6322f7de7",
+                    "name": "current-text-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0d533b093905463dbe78a3837cf34cb5_current-text-blue.png",
+                    "alt_text": "current-text-blue",
+                    "order": 0
+                },
+                {
+                    "image_id": "b6ed8b9a-19fe-465f-9443-7035589d834a",
+                    "name": "current-text-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/eaa8c9837511424fac9f8b62ab130de3_current-text-pink.png",
+                    "alt_text": "current-text-pink",
+                    "order": 1
+                },
+                {
+                    "image_id": "48b198cf-d619-49bc-95e7-5e0e1d19fdc6",
+                    "name": "design1-text-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/6f8679988d044d49bede8e44acda5e7b_design1-text-blue.png",
+                    "alt_text": "design1-text-blue",
+                    "order": 2
+                },
+                {
+                    "image_id": "c81b997f-8079-4a40-afcf-60e850fb0765",
+                    "name": "design1-text-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/98261c9f99294284a847fc7bd884d817_design1-text-pink.png",
+                    "alt_text": "design1-text-pink",
+                    "order": 3
+                },
+                {
+                    "image_id": "d875ccb8-65a3-471f-9a6e-d4bd68901d50",
+                    "name": "design2-text-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c40bec69650d488083fd13ada53bf3eb_design2-text-blue.png",
+                    "alt_text": "design2-text-blue",
+                    "order": 4
+                },
+                {
+                    "image_id": "0869aef8-66da-4084-a7ed-7addf26d1bd9",
+                    "name": "design2-text-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a309ce5a93424df59a2310d999073007_design2-text-pink.png",
+                    "alt_text": "design2-text-pink",
+                    "order": 5
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "5ffd751e-1f3e-45c0-9f27-34a6322f7de7",
+                    "name": "current-text-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0d533b093905463dbe78a3837cf34cb5_current-text-blue.png",
+                    "alt_text": "current-text-blue",
+                    "order": 0
+                },
+                {
+                    "image_id": "b6ed8b9a-19fe-465f-9443-7035589d834a",
+                    "name": "current-text-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/eaa8c9837511424fac9f8b62ab130de3_current-text-pink.png",
+                    "alt_text": "current-text-pink",
+                    "order": 1
+                },
+                {
+                    "image_id": "48b198cf-d619-49bc-95e7-5e0e1d19fdc6",
+                    "name": "design1-text-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/6f8679988d044d49bede8e44acda5e7b_design1-text-blue.png",
+                    "alt_text": "design1-text-blue",
+                    "order": 2
+                },
+                {
+                    "image_id": "c81b997f-8079-4a40-afcf-60e850fb0765",
+                    "name": "design1-text-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/98261c9f99294284a847fc7bd884d817_design1-text-pink.png",
+                    "alt_text": "design1-text-pink",
+                    "order": 3
+                },
+                {
+                    "image_id": "d875ccb8-65a3-471f-9a6e-d4bd68901d50",
+                    "name": "design2-text-blue",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c40bec69650d488083fd13ada53bf3eb_design2-text-blue.png",
+                    "alt_text": "design2-text-blue",
+                    "order": 4
+                },
+                {
+                    "image_id": "0869aef8-66da-4084-a7ed-7addf26d1bd9",
+                    "name": "design2-text-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a309ce5a93424df59a2310d999073007_design2-text-pink.png",
+                    "alt_text": "design2-text-pink",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "layer_id": "b0c904da-352d-4749-9853-b0d2f8d18d7d",
+            "name": "Logos",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 2,
+            "order": 2,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "43fda197-b920-4bfe-9a99-8485126ead79",
+                    "name": "Radox_PHA_Logo",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/3063d447a8364d4db3694f0ff980d4b7_Radox_PHA_Logo.png",
+                    "alt_text": "Radox_PHA_Logo",
+                    "order": 0
+                },
+                {
+                    "image_id": "0315b96b-5558-4b28-84a1-53df50cea5df",
+                    "name": "Radox-Logo_0000_1",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a1c9aaf93e3f489ea0a8c70319eb1970_Radox-Logo_0000_1.png",
+                    "alt_text": "Radox-Logo_0000_1",
+                    "order": 1
+                },
+                {
+                    "image_id": "d785a38e-b3d6-4d6b-be9d-e822682cf860",
+                    "name": "Radox-Logo_0001_2",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/294f564e44d649eb9011ede33fc70cf4_Radox-Logo_0001_2.png",
+                    "alt_text": "Radox-Logo_0001_2",
+                    "order": 2
+                },
+                {
+                    "image_id": "241100df-4c6e-484b-ac9f-3b2df03106c1",
+                    "name": "Radox-Logo_0002_3",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0d94f1a84048496abb6e8e34c73e2a2d_Radox-Logo_0002_3.png",
+                    "alt_text": "Radox-Logo_0002_3",
+                    "order": 3
+                },
+                {
+                    "image_id": "a147de62-26c0-4061-8dec-4a4a624aac62",
+                    "name": "Radox-Logo_0005_6",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/21f7241210d74861b79710c1b5599587_Radox-Logo_0005_6.png",
+                    "alt_text": "Radox-Logo_0005_6",
+                    "order": 4
+                },
+                {
+                    "image_id": "a3dda8b3-1bd6-477c-b33d-6ce97ea4e511",
+                    "name": "Radox-Logo_0010_2b",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/55593ef6169a4823bfe650ccfcc86499_Radox-Logo_0010_2b.png",
+                    "alt_text": "Radox-Logo_0010_2b",
+                    "order": 5
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "43fda197-b920-4bfe-9a99-8485126ead79",
+                    "name": "Radox_PHA_Logo",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/3063d447a8364d4db3694f0ff980d4b7_Radox_PHA_Logo.png",
+                    "alt_text": "Radox_PHA_Logo",
+                    "order": 0
+                },
+                {
+                    "image_id": "0315b96b-5558-4b28-84a1-53df50cea5df",
+                    "name": "Radox-Logo_0000_1",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a1c9aaf93e3f489ea0a8c70319eb1970_Radox-Logo_0000_1.png",
+                    "alt_text": "Radox-Logo_0000_1",
+                    "order": 1
+                },
+                {
+                    "image_id": "d785a38e-b3d6-4d6b-be9d-e822682cf860",
+                    "name": "Radox-Logo_0001_2",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/294f564e44d649eb9011ede33fc70cf4_Radox-Logo_0001_2.png",
+                    "alt_text": "Radox-Logo_0001_2",
+                    "order": 2
+                },
+                {
+                    "image_id": "241100df-4c6e-484b-ac9f-3b2df03106c1",
+                    "name": "Radox-Logo_0002_3",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0d94f1a84048496abb6e8e34c73e2a2d_Radox-Logo_0002_3.png",
+                    "alt_text": "Radox-Logo_0002_3",
+                    "order": 3
+                },
+                {
+                    "image_id": "a147de62-26c0-4061-8dec-4a4a624aac62",
+                    "name": "Radox-Logo_0005_6",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/21f7241210d74861b79710c1b5599587_Radox-Logo_0005_6.png",
+                    "alt_text": "Radox-Logo_0005_6",
+                    "order": 4
+                },
+                {
+                    "image_id": "a3dda8b3-1bd6-477c-b33d-6ce97ea4e511",
+                    "name": "Radox-Logo_0010_2b",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/55593ef6169a4823bfe650ccfcc86499_Radox-Logo_0010_2b.png",
+                    "alt_text": "Radox-Logo_0010_2b",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "layer_id": "72fdfe56-1575-4f03-bf8c-6f6019adb0cc",
+            "name": "Icons",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 3,
+            "order": 3,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "37968176-6b02-410a-bc8f-40331fbf290f",
+                    "name": "icon-dots",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b5be3779678a43ad94ba0d07cb851f59_icon-dots.png",
+                    "alt_text": "icon-dots",
+                    "order": 0
+                },
+                {
+                    "image_id": "91689dee-e0e0-44c8-b17d-4387b2e18275",
+                    "name": "icon-line",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0dfc9b171ba3462db6f86c28558dbc9f_icon-line.png",
+                    "alt_text": "icon-line",
+                    "order": 1
+                },
+                {
+                    "image_id": "98580b2b-de33-4cc7-960d-22bf99c826d7",
+                    "name": "icon-solid",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/184b32487a4b45b797dd6441f37a4dcd_icon-solid.png",
+                    "alt_text": "icon-solid",
+                    "order": 2
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "37968176-6b02-410a-bc8f-40331fbf290f",
+                    "name": "icon-dots",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b5be3779678a43ad94ba0d07cb851f59_icon-dots.png",
+                    "alt_text": "icon-dots",
+                    "order": 0
+                },
+                {
+                    "image_id": "91689dee-e0e0-44c8-b17d-4387b2e18275",
+                    "name": "icon-line",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0dfc9b171ba3462db6f86c28558dbc9f_icon-line.png",
+                    "alt_text": "icon-line",
+                    "order": 1
+                },
+                {
+                    "image_id": "98580b2b-de33-4cc7-960d-22bf99c826d7",
+                    "name": "icon-solid",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/184b32487a4b45b797dd6441f37a4dcd_icon-solid.png",
+                    "alt_text": "icon-solid",
+                    "order": 2
+                }
+            ]
+        }
+    ],
+    "categories": [],
+    "toggle_shuffle": true
+}

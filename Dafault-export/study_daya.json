@@ -1,0 +1,1273 @@
+{
+    "id": "a92b4439-f836-4928-b473-2e0364e77bb2",
+    "title": "Rexona Box Design Element Study - Brazil (Constraints Copy Test)",
+    "status": "completed",
+    "study_type": "layer",
+    "created_at": "2026-06-17T19:00:45.612029Z",
+    "background": "We are running this study to understand which individual visual elements on the Rexona box may increase, decrease, or have no effect on consumer appeal. Instead of testing a few complete mockups and guessing what caused the preference, this study systematically varies specific design elements — such as cap style, finish, brand band size, badges, icons, and layout details — so we can measure the utility of each element independently. The goal is to give the brand and design teams clear evidence on which design choices matter most before finalizing the packaging direction.",
+    "main_question": "O quão atrativo este design é para você?",
+    "orientation_text": "Bem-vindo(a)! Obrigado(a) por participar deste estudo. Este estudo possui DUAS\nETAPAS. A ETAPA 1 mostrará designs de embalagens de latas em aerossol e a ETAPA 2\nmostrará designs de embalagens em caixas. Por favor, complete ambas.\n\nEm CADA ETAPA, você verá uma série de designs de embalagens, apresentados um de\ncada vez. Alguns podem parecer semelhantes, enquanto outros podem parecer\ndiferentes.\n\nPor favor, avalie cada design de forma independente, com base na sua reação\nimediata. Não compare os designs entre si. Não existem respostas certas ou erradas.\nEstamos interessados na sua percepção pessoal imediata.\n\nPara cada design, será feita a seguinte pergunta:\n\n“O quão atrativo este design é para você?”\n\nPor favor, responda utilizando a escala de 5 pontos.\n\nEscala de avaliação (1 a 5), onde:\n\n1 = Nada atrativo\n5 = Muito atrativo",
+    "rating_scale": {
+        "min_value": 1,
+        "max_value": 5,
+        "min_label": "Nada atrativo",
+        "max_label": "Muito atrativo",
+        "middle_label": ""
+    },
+    "study_config": {
+        "country": "Brazil",
+        "aspect_ratio": "9:16",
+        "age_distribution": {
+            "65+": 20.0,
+            "18 - 24": 0.0,
+            "25 - 34": 20.0,
+            "35 - 44": 20.0,
+            "45 - 54": 20.0,
+            "55 - 64": 20.0
+        },
+        "gender_distribution": {
+            "male": 50.0,
+            "female": 100.0
+        },
+        "number_of_respondents": 5
+    },
+    "classification_questions": [
+        {
+            "question_id": "a228af1a-8",
+            "question_text": "Como você está achando o estudo até agora?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 1,
+            "answer_options": [
+                {
+                    "id": "15874909-2",
+                    "text": "Muito confuso",
+                    "order": 1
+                },
+                {
+                    "id": "10aa273a-4",
+                    "text": "Um pouco confuso",
+                    "order": 2
+                },
+                {
+                    "id": "968b3477-a",
+                    "text": "Em geral fácil de acompanhar",
+                    "order": 3
+                },
+                {
+                    "id": "cb887e72-f",
+                    "text": "Muito fácil de acompanhar",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {
+                "optional_classification_question": false
+            },
+            "id": "588db4ef-8cf0-4566-90a0-03a6085ee8d3"
+        },
+        {
+            "question_id": "235fef31-8",
+            "question_text": "Do you like Deo? ",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 2,
+            "answer_options": [
+                {
+                    "id": "5671b226-9",
+                    "text": "Yes",
+                    "order": 1
+                },
+                {
+                    "id": "4a297241-b",
+                    "text": "No",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "b843abf1-adf3-4b2e-9873-526c39069cd7"
+        }
+    ],
+    "element_count": 55,
+    "layers": [
+        {
+            "layer_id": "0be0e96b-2473-414d-a83c-f701a9a0e7eb",
+            "name": "A. Box",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 0,
+            "order": 0,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "02d05af3-3d8e-4686-829b-d5251960a7be",
+                    "name": "A1-white",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4c6e3337124a475a97e6e7c32f4136b0_A1-white.png",
+                    "alt_text": "A1-white",
+                    "order": 0
+                },
+                {
+                    "image_id": "01e5457f-8cd9-4b67-a4c7-695dd07e7d04",
+                    "name": "A2-silver",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b4563370a7634ade87cebb4b33f7661b_A2-silver.png",
+                    "alt_text": "A2-silver",
+                    "order": 1
+                },
+                {
+                    "image_id": "201a8fad-0ff0-40ec-8b56-4bb77e563933",
+                    "name": "A3-teal",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0e7058b1496d4ccab4672f48126200a2_A3-teal.png",
+                    "alt_text": "A3-teal",
+                    "order": 2
+                },
+                {
+                    "image_id": "50a7eb62-b4bb-4bd6-89df-a1ad76dde44c",
+                    "name": "A4-white-clinical",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/175e1e4544f94cc7b3399e3d72dfb828_A4-white-clinical.png",
+                    "alt_text": "A4-white-clinical",
+                    "order": 3
+                },
+                {
+                    "image_id": "3e92ef36-d6cf-46a6-81f1-4616599bb6c6",
+                    "name": "A5-white-maximum",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4291a9c76a9d4a4da85b95e2685d1ae6_A5-white-maximum.png",
+                    "alt_text": "A5-white-maximum",
+                    "order": 4
+                },
+                {
+                    "image_id": "eb48277b-c3be-4654-be50-cb1e83d89f55",
+                    "name": "A6-sliver-clinical",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e794c2bfd50d459f80497d304eb4d696_A6-sliver-clinical.png",
+                    "alt_text": "A6-sliver-clinical",
+                    "order": 5
+                },
+                {
+                    "image_id": "fb5ebfa7-4189-4f77-ab03-7079c3d92558",
+                    "name": "A7-sliver-maximum",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5480d45deae3402e8b68998159d57ca7_A7-sliver-maximum.png",
+                    "alt_text": "A7-sliver-maximum",
+                    "order": 6
+                },
+                {
+                    "image_id": "73aa42c8-1fda-40fb-b17c-22cf65b44ab1",
+                    "name": "A8-teal-clinical",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e2a75392d0394d79b1b0c29e3b701b9c_A8-teal-clinical.png",
+                    "alt_text": "A8-teal-clinical",
+                    "order": 7
+                },
+                {
+                    "image_id": "a852f7bd-c1d3-4909-96d1-6dee15c89689",
+                    "name": "A9-teal-maximum",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/11f5443737194eb8a0a200b0de611ac9_A9-teal-maximum.png",
+                    "alt_text": "A9-teal-maximum",
+                    "order": 8
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "02d05af3-3d8e-4686-829b-d5251960a7be",
+                    "name": "A1-white",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4c6e3337124a475a97e6e7c32f4136b0_A1-white.png",
+                    "alt_text": "A1-white",
+                    "order": 0
+                },
+                {
+                    "image_id": "01e5457f-8cd9-4b67-a4c7-695dd07e7d04",
+                    "name": "A2-silver",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b4563370a7634ade87cebb4b33f7661b_A2-silver.png",
+                    "alt_text": "A2-silver",
+                    "order": 1
+                },
+                {
+                    "image_id": "201a8fad-0ff0-40ec-8b56-4bb77e563933",
+                    "name": "A3-teal",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0e7058b1496d4ccab4672f48126200a2_A3-teal.png",
+                    "alt_text": "A3-teal",
+                    "order": 2
+                },
+                {
+                    "image_id": "50a7eb62-b4bb-4bd6-89df-a1ad76dde44c",
+                    "name": "A4-white-clinical",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/175e1e4544f94cc7b3399e3d72dfb828_A4-white-clinical.png",
+                    "alt_text": "A4-white-clinical",
+                    "order": 3
+                },
+                {
+                    "image_id": "3e92ef36-d6cf-46a6-81f1-4616599bb6c6",
+                    "name": "A5-white-maximum",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4291a9c76a9d4a4da85b95e2685d1ae6_A5-white-maximum.png",
+                    "alt_text": "A5-white-maximum",
+                    "order": 4
+                },
+                {
+                    "image_id": "eb48277b-c3be-4654-be50-cb1e83d89f55",
+                    "name": "A6-sliver-clinical",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e794c2bfd50d459f80497d304eb4d696_A6-sliver-clinical.png",
+                    "alt_text": "A6-sliver-clinical",
+                    "order": 5
+                },
+                {
+                    "image_id": "fb5ebfa7-4189-4f77-ab03-7079c3d92558",
+                    "name": "A7-sliver-maximum",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5480d45deae3402e8b68998159d57ca7_A7-sliver-maximum.png",
+                    "alt_text": "A7-sliver-maximum",
+                    "order": 6
+                },
+                {
+                    "image_id": "73aa42c8-1fda-40fb-b17c-22cf65b44ab1",
+                    "name": "A8-teal-clinical",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e2a75392d0394d79b1b0c29e3b701b9c_A8-teal-clinical.png",
+                    "alt_text": "A8-teal-clinical",
+                    "order": 7
+                },
+                {
+                    "image_id": "a852f7bd-c1d3-4909-96d1-6dee15c89689",
+                    "name": "A9-teal-maximum",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/11f5443737194eb8a0a200b0de611ac9_A9-teal-maximum.png",
+                    "alt_text": "A9-teal-maximum",
+                    "order": 8
+                }
+            ]
+        },
+        {
+            "layer_id": "1e6f2509-55ff-4a89-a28c-0e7cea2c655d",
+            "name": "B. Stripes",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 1,
+            "order": 1,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "33e00a54-ed31-4cee-a25a-e09deb125ddf",
+                    "name": "B1-small",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf9d31443cd8465d8dc649be008c2ece_B1-small.png",
+                    "alt_text": "B1-small",
+                    "order": 0
+                },
+                {
+                    "image_id": "f5afbfdc-e39a-43be-ba2e-cba16e40515d",
+                    "name": "B2-medium",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/d135bb667aaf4e348ae7784598a2105e_B2-medium.png",
+                    "alt_text": "B2-medium",
+                    "order": 1
+                },
+                {
+                    "image_id": "bb96eb7d-fe80-4847-838e-81c9af80cc42",
+                    "name": "B3-large",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/6cb829343b754eb8bf48b0c2f37fda93_B3-large.png",
+                    "alt_text": "B3-large",
+                    "order": 2
+                },
+                {
+                    "image_id": "287aca9e-7bf4-4673-8ffd-946231e365f9",
+                    "name": "B4-small-bottom",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0597a940ef4e4ca5961ea8b558a3afd3_B4-small-bottom.png",
+                    "alt_text": "B4-small-bottom",
+                    "order": 3
+                },
+                {
+                    "image_id": "8699120f-e753-430b-b832-545fbf80252d",
+                    "name": "B5-small-medium",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/3b6217b19d4e4656ab6674874f42406e_B5-small-medium.png",
+                    "alt_text": "B5-small-medium",
+                    "order": 4
+                },
+                {
+                    "image_id": "3b671f29-8f29-4b43-a9e1-0c09d22f13ae",
+                    "name": "B6-small-large",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/49e5b9a0102844ba829e4abd04180289_B6-small-large.png",
+                    "alt_text": "B6-small-large",
+                    "order": 5
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "33e00a54-ed31-4cee-a25a-e09deb125ddf",
+                    "name": "B1-small",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf9d31443cd8465d8dc649be008c2ece_B1-small.png",
+                    "alt_text": "B1-small",
+                    "order": 0
+                },
+                {
+                    "image_id": "f5afbfdc-e39a-43be-ba2e-cba16e40515d",
+                    "name": "B2-medium",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/d135bb667aaf4e348ae7784598a2105e_B2-medium.png",
+                    "alt_text": "B2-medium",
+                    "order": 1
+                },
+                {
+                    "image_id": "bb96eb7d-fe80-4847-838e-81c9af80cc42",
+                    "name": "B3-large",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/6cb829343b754eb8bf48b0c2f37fda93_B3-large.png",
+                    "alt_text": "B3-large",
+                    "order": 2
+                },
+                {
+                    "image_id": "287aca9e-7bf4-4673-8ffd-946231e365f9",
+                    "name": "B4-small-bottom",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0597a940ef4e4ca5961ea8b558a3afd3_B4-small-bottom.png",
+                    "alt_text": "B4-small-bottom",
+                    "order": 3
+                },
+                {
+                    "image_id": "8699120f-e753-430b-b832-545fbf80252d",
+                    "name": "B5-small-medium",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/3b6217b19d4e4656ab6674874f42406e_B5-small-medium.png",
+                    "alt_text": "B5-small-medium",
+                    "order": 4
+                },
+                {
+                    "image_id": "3b671f29-8f29-4b43-a9e1-0c09d22f13ae",
+                    "name": "B6-small-large",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/49e5b9a0102844ba829e4abd04180289_B6-small-large.png",
+                    "alt_text": "B6-small-large",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "layer_id": "1d6e72e7-8564-4e42-b609-8d4c46870bc8",
+            "name": "C. Box Label",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 2,
+            "order": 2,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "9cebe6ef-e167-416a-bda0-259582dfcad8",
+                    "name": "C1-silver-small-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2001d7e86ecf42ecad4ecf1811d0ba34_C1-silver-small-pink.png",
+                    "alt_text": "C1-silver-small-pink",
+                    "order": 0
+                },
+                {
+                    "image_id": "f5b0025e-50f2-41e4-8e2c-c6038384ae5c",
+                    "name": "C2-full-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/bd692cdfbcf34173808fab0ec4849dae_C2-full-pink.png",
+                    "alt_text": "C2-full-pink",
+                    "order": 1
+                },
+                {
+                    "image_id": "55efdf04-acc1-4982-84a7-b331cf498d74",
+                    "name": "C3-none",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7c328881ebb444a097536b7ccc4ee224_C3-none.png",
+                    "alt_text": "C3-none",
+                    "order": 2
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "9cebe6ef-e167-416a-bda0-259582dfcad8",
+                    "name": "C1-silver-small-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2001d7e86ecf42ecad4ecf1811d0ba34_C1-silver-small-pink.png",
+                    "alt_text": "C1-silver-small-pink",
+                    "order": 0
+                },
+                {
+                    "image_id": "f5b0025e-50f2-41e4-8e2c-c6038384ae5c",
+                    "name": "C2-full-pink",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/bd692cdfbcf34173808fab0ec4849dae_C2-full-pink.png",
+                    "alt_text": "C2-full-pink",
+                    "order": 1
+                },
+                {
+                    "image_id": "55efdf04-acc1-4982-84a7-b331cf498d74",
+                    "name": "C3-none",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7c328881ebb444a097536b7ccc4ee224_C3-none.png",
+                    "alt_text": "C3-none",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "layer_id": "47267b24-3fb9-417f-8bab-202deca31273",
+            "name": "D. Word Options",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 3,
+            "order": 3,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "aba4d045-83f9-42dc-bcdb-64d6b8796a96",
+                    "name": "D1-clinical-small",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/647c9e82447d482eaf1cc60a22616df6_D1-clinical-small.png",
+                    "alt_text": "D1-clinical-small",
+                    "order": 0
+                },
+                {
+                    "image_id": "c2e985b0-1525-48ef-b1bb-92b7913e2439",
+                    "name": "D2-clinical-bigger",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9a68699ead594a429e0345a72f915b83_D2-clinical-bigger.png",
+                    "alt_text": "D2-clinical-bigger",
+                    "order": 1
+                },
+                {
+                    "image_id": "581d72ce-f808-4d49-b883-dd10e9996864",
+                    "name": "D3-clinical-large-side",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/bb7b65ad1dd34824ad63e1dbd0da74ed_D3-clinical-large-side.png",
+                    "alt_text": "D3-clinical-large-side",
+                    "order": 2
+                },
+                {
+                    "image_id": "dc6733ea-68ba-4712-afb0-03f32a0e0789",
+                    "name": "D4-maximum-small",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4734bcd683444d82bac653b2b5d69e33_D4-maximum-small.png",
+                    "alt_text": "D4-maximum-small",
+                    "order": 3
+                },
+                {
+                    "image_id": "2b24a211-21a2-42f7-874a-fa14d9af3974",
+                    "name": "D5-maximum-bigger",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/62b86be5a4c5427bb2c6ebb742415313_D5-maximum-bigger.png",
+                    "alt_text": "D5-maximum-bigger",
+                    "order": 4
+                },
+                {
+                    "image_id": "9ed25f45-9daf-4a38-93bc-5075326234a3",
+                    "name": "D6-maximum-large-side",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b9d610736aad49cd92a00668953c3c28_D6-maximum-large-side.png",
+                    "alt_text": "D6-maximum-large-side",
+                    "order": 5
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "aba4d045-83f9-42dc-bcdb-64d6b8796a96",
+                    "name": "D1-clinical-small",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/647c9e82447d482eaf1cc60a22616df6_D1-clinical-small.png",
+                    "alt_text": "D1-clinical-small",
+                    "order": 0
+                },
+                {
+                    "image_id": "c2e985b0-1525-48ef-b1bb-92b7913e2439",
+                    "name": "D2-clinical-bigger",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9a68699ead594a429e0345a72f915b83_D2-clinical-bigger.png",
+                    "alt_text": "D2-clinical-bigger",
+                    "order": 1
+                },
+                {
+                    "image_id": "581d72ce-f808-4d49-b883-dd10e9996864",
+                    "name": "D3-clinical-large-side",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/bb7b65ad1dd34824ad63e1dbd0da74ed_D3-clinical-large-side.png",
+                    "alt_text": "D3-clinical-large-side",
+                    "order": 2
+                },
+                {
+                    "image_id": "dc6733ea-68ba-4712-afb0-03f32a0e0789",
+                    "name": "D4-maximum-small",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4734bcd683444d82bac653b2b5d69e33_D4-maximum-small.png",
+                    "alt_text": "D4-maximum-small",
+                    "order": 3
+                },
+                {
+                    "image_id": "2b24a211-21a2-42f7-874a-fa14d9af3974",
+                    "name": "D5-maximum-bigger",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/62b86be5a4c5427bb2c6ebb742415313_D5-maximum-bigger.png",
+                    "alt_text": "D5-maximum-bigger",
+                    "order": 4
+                },
+                {
+                    "image_id": "9ed25f45-9daf-4a38-93bc-5075326234a3",
+                    "name": "D6-maximum-large-side",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b9d610736aad49cd92a00668953c3c28_D6-maximum-large-side.png",
+                    "alt_text": "D6-maximum-large-side",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "layer_id": "0063a275-8aa2-446c-a955-1b4b7b4aadf0",
+            "name": "E. Tick",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 4,
+            "order": 4,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "db2e2dbf-7465-45b3-87a1-20eccebf20af",
+                    "name": "E1-teal",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5f41d75c8ebf4259a98be7436673a812_E1-teal.png",
+                    "alt_text": "E1-teal",
+                    "order": 0
+                },
+                {
+                    "image_id": "4e50a2bf-2f74-4b4a-bc08-67a890dc7e52",
+                    "name": "E2-hollographic",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4b09bf1bef434d8db2a1448e42291963_E2-hollographic.png",
+                    "alt_text": "E2-hollographic",
+                    "order": 1
+                },
+                {
+                    "image_id": "9ee64781-bc4b-44bc-aec9-c4fde370cd34",
+                    "name": "E3-glossy",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e186e9ea6e9c4f9f9707f380623fc42c_E3-glossy.png",
+                    "alt_text": "E3-glossy",
+                    "order": 2
+                },
+                {
+                    "image_id": "274dff3a-51be-4849-8004-7b4ee452a69d",
+                    "name": "E4-glossy-rosegold",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/11eacb7448374734ad2eec9723521f04_E4-glossy-rosegold.png",
+                    "alt_text": "E4-glossy-rosegold",
+                    "order": 3
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "db2e2dbf-7465-45b3-87a1-20eccebf20af",
+                    "name": "E1-teal",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5f41d75c8ebf4259a98be7436673a812_E1-teal.png",
+                    "alt_text": "E1-teal",
+                    "order": 0
+                },
+                {
+                    "image_id": "4e50a2bf-2f74-4b4a-bc08-67a890dc7e52",
+                    "name": "E2-hollographic",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4b09bf1bef434d8db2a1448e42291963_E2-hollographic.png",
+                    "alt_text": "E2-hollographic",
+                    "order": 1
+                },
+                {
+                    "image_id": "9ee64781-bc4b-44bc-aec9-c4fde370cd34",
+                    "name": "E3-glossy",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e186e9ea6e9c4f9f9707f380623fc42c_E3-glossy.png",
+                    "alt_text": "E3-glossy",
+                    "order": 2
+                },
+                {
+                    "image_id": "274dff3a-51be-4849-8004-7b4ee452a69d",
+                    "name": "E4-glossy-rosegold",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/11eacb7448374734ad2eec9723521f04_E4-glossy-rosegold.png",
+                    "alt_text": "E4-glossy-rosegold",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "layer_id": "e931db72-3266-4df7-9c0b-e4b158174280",
+            "name": "F. Antitranspirant",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 5,
+            "order": 5,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "bd044f94-5928-4c18-9988-6b1887719eac",
+                    "name": "F1-smaller-low",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/40b53f0e592e48a39f9198101d1a2fb5_F1-smaller-low.png",
+                    "alt_text": "F1-smaller-low",
+                    "order": 0
+                },
+                {
+                    "image_id": "a5c00681-f5c4-4380-aa7b-deca03913ee8",
+                    "name": "F2-larger-upper",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/05cc277ebc004fe99563beb2513946a5_F2-larger-upper.png",
+                    "alt_text": "F2-larger-upper",
+                    "order": 1
+                },
+                {
+                    "image_id": "ccaae77e-8a4c-490d-8a57-1fe3421c2520",
+                    "name": "F3-larger-lower",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/21c55eb7be304ff2863a65462c41fd73_F3-larger-lower.png",
+                    "alt_text": "F3-larger-lower",
+                    "order": 2
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "bd044f94-5928-4c18-9988-6b1887719eac",
+                    "name": "F1-smaller-low",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/40b53f0e592e48a39f9198101d1a2fb5_F1-smaller-low.png",
+                    "alt_text": "F1-smaller-low",
+                    "order": 0
+                },
+                {
+                    "image_id": "a5c00681-f5c4-4380-aa7b-deca03913ee8",
+                    "name": "F2-larger-upper",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/05cc277ebc004fe99563beb2513946a5_F2-larger-upper.png",
+                    "alt_text": "F2-larger-upper",
+                    "order": 1
+                },
+                {
+                    "image_id": "ccaae77e-8a4c-490d-8a57-1fe3421c2520",
+                    "name": "F3-larger-lower",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/21c55eb7be304ff2863a65462c41fd73_F3-larger-lower.png",
+                    "alt_text": "F3-larger-lower",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "layer_id": "8cbcbcc6-1e41-4b70-a8e3-1b4c316f39c5",
+            "name": "G. 100H",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 6,
+            "order": 6,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "3e171db9-3792-449f-810f-eb5b6c98647c",
+                    "name": "G1-100H-above-right",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/af589f4bb41d41cbacf8f6b1ac950b23_G1-100H-above-right.png",
+                    "alt_text": "G1-100H-above-right",
+                    "order": 0
+                },
+                {
+                    "image_id": "da8ea709-ad6a-4cbf-ae27-491b72e0f68d",
+                    "name": "G2-100H-above-left",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/d5ad047576344e0e84e745ca35a007e6_G2-100H-above-left.png",
+                    "alt_text": "G2-100H-above-left",
+                    "order": 1
+                },
+                {
+                    "image_id": "a2ca22cf-29f4-4b19-99fc-e0b6481b0ab6",
+                    "name": "G3-100H-low-dark",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b151a7e0befc4019896ce4ef5cb05c40_G3-100H-low-dark.png",
+                    "alt_text": "G3-100H-low-dark",
+                    "order": 2
+                },
+                {
+                    "image_id": "06d39e11-57a7-48fc-b0cc-dc40e05157be",
+                    "name": "G4-100H-low-smaller",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/bf16cce47fc342d5a86e67deb5386331_G4-100H-low-smaller.png",
+                    "alt_text": "G4-100H-low-smaller",
+                    "order": 3
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "3e171db9-3792-449f-810f-eb5b6c98647c",
+                    "name": "G1-100H-above-right",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/af589f4bb41d41cbacf8f6b1ac950b23_G1-100H-above-right.png",
+                    "alt_text": "G1-100H-above-right",
+                    "order": 0
+                },
+                {
+                    "image_id": "da8ea709-ad6a-4cbf-ae27-491b72e0f68d",
+                    "name": "G2-100H-above-left",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/d5ad047576344e0e84e745ca35a007e6_G2-100H-above-left.png",
+                    "alt_text": "G2-100H-above-left",
+                    "order": 1
+                },
+                {
+                    "image_id": "a2ca22cf-29f4-4b19-99fc-e0b6481b0ab6",
+                    "name": "G3-100H-low-dark",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b151a7e0befc4019896ce4ef5cb05c40_G3-100H-low-dark.png",
+                    "alt_text": "G3-100H-low-dark",
+                    "order": 2
+                },
+                {
+                    "image_id": "06d39e11-57a7-48fc-b0cc-dc40e05157be",
+                    "name": "G4-100H-low-smaller",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/bf16cce47fc342d5a86e67deb5386331_G4-100H-low-smaller.png",
+                    "alt_text": "G4-100H-low-smaller",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "layer_id": "7dfa5393-06eb-460d-9bd6-9105f95ab641",
+            "name": "H. Clean Confidence",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 7,
+            "order": 7,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "1a337182-3756-4421-8678-baef0141fc06",
+                    "name": "H1-dark-teal",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/bf8becd3fe8c4307acbbefd24e07864f_H1-dark-teal.png",
+                    "alt_text": "H1-dark-teal",
+                    "order": 0
+                },
+                {
+                    "image_id": "90f75e5d-ea46-489d-ba78-a2e866ea2892",
+                    "name": "H2-pink-aboveline",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2bea49c12e404d53b006c642447e8ce7_H2-pink-aboveline.png",
+                    "alt_text": "H2-pink-aboveline",
+                    "order": 1
+                },
+                {
+                    "image_id": "873c9fb1-da46-4214-9f31-f1ffdad79248",
+                    "name": "H3-original",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/1fb8acae43e64698b56ad1e6272b5e46_H3-original.png",
+                    "alt_text": "H3-original",
+                    "order": 2
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "1a337182-3756-4421-8678-baef0141fc06",
+                    "name": "H1-dark-teal",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/bf8becd3fe8c4307acbbefd24e07864f_H1-dark-teal.png",
+                    "alt_text": "H1-dark-teal",
+                    "order": 0
+                },
+                {
+                    "image_id": "90f75e5d-ea46-489d-ba78-a2e866ea2892",
+                    "name": "H2-pink-aboveline",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2bea49c12e404d53b006c642447e8ce7_H2-pink-aboveline.png",
+                    "alt_text": "H2-pink-aboveline",
+                    "order": 1
+                },
+                {
+                    "image_id": "873c9fb1-da46-4214-9f31-f1ffdad79248",
+                    "name": "H3-original",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/1fb8acae43e64698b56ad1e6272b5e46_H3-original.png",
+                    "alt_text": "H3-original",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "layer_id": "b27a2e28-8490-4fb2-8754-cdc49cad0b60",
+            "name": "I. Four Dots",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 8,
+            "order": 8,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "e4f9b5f0-4c3d-4dd3-81e1-e32efb52f439",
+                    "name": "I1-silver-left",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9aacca17ebef43d0a79bb7a1cb0a8b96_I1-silver-left.png",
+                    "alt_text": "I1-silver-left",
+                    "order": 0
+                },
+                {
+                    "image_id": "d43079f3-0503-4d43-89c6-0dd471159bfc",
+                    "name": "I2-silver-lower-left",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e944d814a472407693b68543e1d427da_I2-silver-lower-left.png",
+                    "alt_text": "I2-silver-lower-left",
+                    "order": 1
+                },
+                {
+                    "image_id": "5cb6f8b8-df1c-43fc-af09-499d8565424f",
+                    "name": "I3-pink-upper-right",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c66b8724ce93439f8fe9f212290e50df_I3-pink-upper-right.png",
+                    "alt_text": "I3-pink-upper-right",
+                    "order": 2
+                },
+                {
+                    "image_id": "281d827c-dbf6-4597-9837-ae266e6cc3d3",
+                    "name": "I4-original",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0096ba962f7c4ec68e8355006af22226_I4-original.png",
+                    "alt_text": "I4-original",
+                    "order": 3
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "e4f9b5f0-4c3d-4dd3-81e1-e32efb52f439",
+                    "name": "I1-silver-left",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9aacca17ebef43d0a79bb7a1cb0a8b96_I1-silver-left.png",
+                    "alt_text": "I1-silver-left",
+                    "order": 0
+                },
+                {
+                    "image_id": "d43079f3-0503-4d43-89c6-0dd471159bfc",
+                    "name": "I2-silver-lower-left",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e944d814a472407693b68543e1d427da_I2-silver-lower-left.png",
+                    "alt_text": "I2-silver-lower-left",
+                    "order": 1
+                },
+                {
+                    "image_id": "5cb6f8b8-df1c-43fc-af09-499d8565424f",
+                    "name": "I3-pink-upper-right",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c66b8724ce93439f8fe9f212290e50df_I3-pink-upper-right.png",
+                    "alt_text": "I3-pink-upper-right",
+                    "order": 2
+                },
+                {
+                    "image_id": "281d827c-dbf6-4597-9837-ae266e6cc3d3",
+                    "name": "I4-original",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/0096ba962f7c4ec68e8355006af22226_I4-original.png",
+                    "alt_text": "I4-original",
+                    "order": 3
+                }
+            ]
+        },
+        {
+            "layer_id": "f571f1f5-ef01-4d4d-9ffb-5a2d74d09181",
+            "name": "J. 16p",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 9,
+            "order": 9,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "7594e453-bb1f-4a62-bb2e-3ef4267d8940",
+                    "name": "J1-bottom",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e2340a411fe9418fbba6618c8f641eb9_J1-bottom.png",
+                    "alt_text": "J1-bottom",
+                    "order": 0
+                },
+                {
+                    "image_id": "1a4a2e34-e750-488f-b78c-8f443c4dca98",
+                    "name": "J2-middle",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/f73a9f80751844878f36df67a979c62e_J2-middle.png",
+                    "alt_text": "J2-middle",
+                    "order": 1
+                },
+                {
+                    "image_id": "8d25a03f-512f-475a-bc47-c0534a449319",
+                    "name": "J3-top",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/23ac8b50b8af4ee6bfaaf6aae7a762ba_J3-top.png",
+                    "alt_text": "J3-top",
+                    "order": 2
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "7594e453-bb1f-4a62-bb2e-3ef4267d8940",
+                    "name": "J1-bottom",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e2340a411fe9418fbba6618c8f641eb9_J1-bottom.png",
+                    "alt_text": "J1-bottom",
+                    "order": 0
+                },
+                {
+                    "image_id": "1a4a2e34-e750-488f-b78c-8f443c4dca98",
+                    "name": "J2-middle",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/f73a9f80751844878f36df67a979c62e_J2-middle.png",
+                    "alt_text": "J2-middle",
+                    "order": 1
+                },
+                {
+                    "image_id": "8d25a03f-512f-475a-bc47-c0534a449319",
+                    "name": "J3-top",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/23ac8b50b8af4ee6bfaaf6aae7a762ba_J3-top.png",
+                    "alt_text": "J3-top",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "layer_id": "4eba537b-8074-404a-b289-ad61b3f3110d",
+            "name": "K. Schutz",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 10,
+            "order": 10,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "9761db2e-4385-4679-a522-22281d2805a0",
+                    "name": "K1-bottom",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ed6d9d7e46dc4fbc8e86211a8610b1aa_K1-bottom.png",
+                    "alt_text": "K1-bottom",
+                    "order": 0
+                },
+                {
+                    "image_id": "ec56fa0d-c3bd-4eff-895b-eef79788173e",
+                    "name": "K2-middle",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/662c0d24bcbc4c58b1ad11d5100093b6_K2-middle.png",
+                    "alt_text": "K2-middle",
+                    "order": 1
+                },
+                {
+                    "image_id": "d96dd94c-e37c-435c-b8d7-94e6c8f656be",
+                    "name": "K3-top",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cfbc7dec59784e6db7b64303c2c88687_K3-top.png",
+                    "alt_text": "K3-top",
+                    "order": 2
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "9761db2e-4385-4679-a522-22281d2805a0",
+                    "name": "K1-bottom",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ed6d9d7e46dc4fbc8e86211a8610b1aa_K1-bottom.png",
+                    "alt_text": "K1-bottom",
+                    "order": 0
+                },
+                {
+                    "image_id": "ec56fa0d-c3bd-4eff-895b-eef79788173e",
+                    "name": "K2-middle",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/662c0d24bcbc4c58b1ad11d5100093b6_K2-middle.png",
+                    "alt_text": "K2-middle",
+                    "order": 1
+                },
+                {
+                    "image_id": "d96dd94c-e37c-435c-b8d7-94e6c8f656be",
+                    "name": "K3-top",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cfbc7dec59784e6db7b64303c2c88687_K3-top.png",
+                    "alt_text": "K3-top",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "layer_id": "c279655f-c96f-44d6-abfe-34d7d4966146",
+            "name": "L. Deocreme",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 11,
+            "order": 11,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "9befad45-6785-408d-8a72-cb0b4aff440c",
+                    "name": "L1-lower",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2b96bf2ec38f46d88917c3d74048c4a8_L1-lower.png",
+                    "alt_text": "L1-lower",
+                    "order": 0
+                },
+                {
+                    "image_id": "826d11aa-2df3-4491-8dd3-8635fd068af9",
+                    "name": "L2-upper",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7bf0fad232f84549992790c79f833cf2_L2-upper.png",
+                    "alt_text": "L2-upper",
+                    "order": 1
+                },
+                {
+                    "image_id": "a2b39f14-d119-49c5-9d7c-0d1b8caf6f75",
+                    "name": "L3-none",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/47bdc65000e74896b137a0bcfcf76751_L3-none.png",
+                    "alt_text": "L3-none",
+                    "order": 2
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "9befad45-6785-408d-8a72-cb0b4aff440c",
+                    "name": "L1-lower",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2b96bf2ec38f46d88917c3d74048c4a8_L1-lower.png",
+                    "alt_text": "L1-lower",
+                    "order": 0
+                },
+                {
+                    "image_id": "826d11aa-2df3-4491-8dd3-8635fd068af9",
+                    "name": "L2-upper",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7bf0fad232f84549992790c79f833cf2_L2-upper.png",
+                    "alt_text": "L2-upper",
+                    "order": 1
+                },
+                {
+                    "image_id": "a2b39f14-d119-49c5-9d7c-0d1b8caf6f75",
+                    "name": "L3-none",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/47bdc65000e74896b137a0bcfcf76751_L3-none.png",
+                    "alt_text": "L3-none",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "layer_id": "c30c162a-1546-4f72-a478-1bc9e9192f0c",
+            "name": "M. 10X",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 12,
+            "order": 12,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "318d8076-0b20-4190-8b76-67dafa1bf1fa",
+                    "name": "M1-10xmais",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/070282a05d454ccd821f86bb9caceca5_M1-10xmais.png",
+                    "alt_text": "M1-10xmais",
+                    "order": 0
+                },
+                {
+                    "image_id": "4fa1a637-e35d-4590-88d5-e41e8a4cb5f0",
+                    "name": "M2-down-below",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/63c4310843a54d18b487a235f992f36e_M2-down-below.png",
+                    "alt_text": "M2-down-below",
+                    "order": 1
+                },
+                {
+                    "image_id": "a7c4a311-f7ed-4ae8-a6e2-f10486a7379f",
+                    "name": "M3-medium",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/22987af992ba4ebc9482ba60f71ec62c_M3-medium.png",
+                    "alt_text": "M3-medium",
+                    "order": 2
+                },
+                {
+                    "image_id": "45325f4c-2c43-4f1d-908d-956628f7ea7c",
+                    "name": "M4-extra-large",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e3fbebef00a340c9b4bd1cb6ad12b6c1_M4-extra-large.png",
+                    "alt_text": "M4-extra-large",
+                    "order": 3
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "318d8076-0b20-4190-8b76-67dafa1bf1fa",
+                    "name": "M1-10xmais",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/070282a05d454ccd821f86bb9caceca5_M1-10xmais.png",
+                    "alt_text": "M1-10xmais",
+                    "order": 0
+                },
+                {
+                    "image_id": "4fa1a637-e35d-4590-88d5-e41e8a4cb5f0",
+                    "name": "M2-down-below",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/63c4310843a54d18b487a235f992f36e_M2-down-below.png",
+                    "alt_text": "M2-down-below",
+                    "order": 1
+                },
+                {
+                    "image_id": "a7c4a311-f7ed-4ae8-a6e2-f10486a7379f",
+                    "name": "M3-medium",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/22987af992ba4ebc9482ba60f71ec62c_M3-medium.png",
+                    "alt_text": "M3-medium",
+                    "order": 2
+                },
+                {
+                    "image_id": "45325f4c-2c43-4f1d-908d-956628f7ea7c",
+                    "name": "M4-extra-large",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e3fbebef00a340c9b4bd1cb6ad12b6c1_M4-extra-large.png",
+                    "alt_text": "M4-extra-large",
+                    "order": 3
+                }
+            ]
+        }
+    ],
+    "categories": [],
+    "toggle_shuffle": true,
+    "design_constraints": [
+        {
+            "id": "54e9c868-b092-4231-8739-a45bdef45b73",
+            "name": "I3 - H1, H2, G1",
+            "anchors": [
+                {
+                    "layer_id": "b27a2e28-8490-4fb2-8754-cdc49cad0b60",
+                    "image_id": "5cb6f8b8-df1c-43fc-af09-499d8565424f"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "7dfa5393-06eb-460d-9bd6-9105f95ab641",
+                    "image_id": "1a337182-3756-4421-8678-baef0141fc06"
+                },
+                {
+                    "layer_id": "7dfa5393-06eb-460d-9bd6-9105f95ab641",
+                    "image_id": "90f75e5d-ea46-489d-ba78-a2e866ea2892"
+                },
+                {
+                    "layer_id": "8cbcbcc6-1e41-4b70-a8e3-1b4c316f39c5",
+                    "image_id": "3e171db9-3792-449f-810f-eb5b6c98647c"
+                }
+            ],
+            "created_at": 1781722910203
+        },
+        {
+            "id": "0d2d7ec3-0074-401f-a084-2d19638b20ef",
+            "name": "L2 - K1, J1",
+            "anchors": [
+                {
+                    "layer_id": "c279655f-c96f-44d6-abfe-34d7d4966146",
+                    "image_id": "826d11aa-2df3-4491-8dd3-8635fd068af9"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "4eba537b-8074-404a-b289-ad61b3f3110d",
+                    "image_id": "9761db2e-4385-4679-a522-22281d2805a0"
+                },
+                {
+                    "layer_id": "f571f1f5-ef01-4d4d-9ffb-5a2d74d09181",
+                    "image_id": "7594e453-bb1f-4a62-bb2e-3ef4267d8940"
+                }
+            ],
+            "created_at": 1781722938831
+        },
+        {
+            "id": "c5875c60-0181-40f4-bedc-c20164987228",
+            "name": "K1 - L2, J1",
+            "anchors": [
+                {
+                    "layer_id": "4eba537b-8074-404a-b289-ad61b3f3110d",
+                    "image_id": "9761db2e-4385-4679-a522-22281d2805a0"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "c279655f-c96f-44d6-abfe-34d7d4966146",
+                    "image_id": "826d11aa-2df3-4491-8dd3-8635fd068af9"
+                },
+                {
+                    "layer_id": "f571f1f5-ef01-4d4d-9ffb-5a2d74d09181",
+                    "image_id": "7594e453-bb1f-4a62-bb2e-3ef4267d8940"
+                }
+            ],
+            "created_at": 1781722959544
+        },
+        {
+            "id": "dc8d157a-f33b-4f55-a9b7-eb3b9d92c6a8",
+            "name": "J1 - L2, K1",
+            "anchors": [
+                {
+                    "layer_id": "f571f1f5-ef01-4d4d-9ffb-5a2d74d09181",
+                    "image_id": "7594e453-bb1f-4a62-bb2e-3ef4267d8940"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "4eba537b-8074-404a-b289-ad61b3f3110d",
+                    "image_id": "9761db2e-4385-4679-a522-22281d2805a0"
+                },
+                {
+                    "layer_id": "c279655f-c96f-44d6-abfe-34d7d4966146",
+                    "image_id": "826d11aa-2df3-4491-8dd3-8635fd068af9"
+                }
+            ],
+            "created_at": 1781722982375
+        },
+        {
+            "id": "02a7913b-f6ed-404a-8fa6-7d2d98869c53",
+            "name": "L1 - G3, G4, F3",
+            "anchors": [
+                {
+                    "layer_id": "c279655f-c96f-44d6-abfe-34d7d4966146",
+                    "image_id": "9befad45-6785-408d-8a72-cb0b4aff440c"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "8cbcbcc6-1e41-4b70-a8e3-1b4c316f39c5",
+                    "image_id": "06d39e11-57a7-48fc-b0cc-dc40e05157be"
+                },
+                {
+                    "layer_id": "8cbcbcc6-1e41-4b70-a8e3-1b4c316f39c5",
+                    "image_id": "a2ca22cf-29f4-4b19-99fc-e0b6481b0ab6"
+                },
+                {
+                    "layer_id": "e931db72-3266-4df7-9c0b-e4b158174280",
+                    "image_id": "ccaae77e-8a4c-490d-8a57-1fe3421c2520"
+                }
+            ],
+            "created_at": 1781723015501
+        },
+        {
+            "id": "6874d48d-b55d-418a-877e-cb9ba0be72ca",
+            "name": "M2 - H3",
+            "anchors": [
+                {
+                    "layer_id": "c30c162a-1546-4f72-a478-1bc9e9192f0c",
+                    "image_id": "4fa1a637-e35d-4590-88d5-e41e8a4cb5f0"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "7dfa5393-06eb-460d-9bd6-9105f95ab641",
+                    "image_id": "873c9fb1-da46-4214-9f31-f1ffdad79248"
+                }
+            ],
+            "created_at": 1781723031022
+        },
+        {
+            "id": "1176aab8-20e4-496a-aea6-f2eebaa4f1fc",
+            "name": "K2 - J2",
+            "anchors": [
+                {
+                    "layer_id": "4eba537b-8074-404a-b289-ad61b3f3110d",
+                    "image_id": "ec56fa0d-c3bd-4eff-895b-eef79788173e"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "f571f1f5-ef01-4d4d-9ffb-5a2d74d09181",
+                    "image_id": "1a4a2e34-e750-488f-b78c-8f443c4dca98"
+                }
+            ],
+            "created_at": 1781809771063
+        },
+        {
+            "id": "f34af972-f390-4a91-ab17-b0817fdf3846",
+            "name": "G1-100H-above-right: H2-pink-aboveline H3-original",
+            "anchors": [
+                {
+                    "layer_id": "8cbcbcc6-1e41-4b70-a8e3-1b4c316f39c5",
+                    "image_id": "3e171db9-3792-449f-810f-eb5b6c98647c"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "7dfa5393-06eb-460d-9bd6-9105f95ab641",
+                    "image_id": "1a337182-3756-4421-8678-baef0141fc06"
+                },
+                {
+                    "layer_id": "7dfa5393-06eb-460d-9bd6-9105f95ab641",
+                    "image_id": "90f75e5d-ea46-489d-ba78-a2e866ea2892"
+                }
+            ],
+            "created_at": 1781992236340
+        }
+    ]
+}

@@ -1,0 +1,2047 @@
+{
+    "id": "777f71e7-0104-42d7-abcc-ba329b8f8a39",
+    "title": "A-FRAME SIGN STUDY",
+    "status": "active",
+    "study_type": "layer",
+    "created_at": "2026-08-03T16:45:19.910918Z",
+    "background": "Identify which core messaging concepts and their placements on an A-Frame sign most effectively drive stop intent in a festival environment; as well as how this varies across different customer segments.",
+    "main_question": "Imagine you are walking through a local outdoor market or festival. How likely are you to stop at a booth after seeing this sign?",
+    "orientation_text": "Welcome to the study!\n\nPlease imagine you are walking through a local outdoor market, farmers market, or festival and notice a booth sign.\n\nReview each sign as you naturally would in that setting, then tell us how likely you would be to stop at the booth based only on the sign.\n\nThere are no right or wrong answers. We are interested in your honest first reaction.",
+    "rating_scale": {
+        "min_value": 1,
+        "max_value": 5,
+        "min_label": "Very unlikely",
+        "max_label": "Very likely",
+        "middle_label": "Neutral"
+    },
+    "study_config": {
+        "country": "United States",
+        "aspect_ratio": "9:16",
+        "age_distribution": {
+            "18 - 24": 20.0,
+            "25 - 34": 20.0,
+            "35 - 44": 20.0,
+            "45 - 54": 20.0,
+            "55 - 64": 20.0
+        },
+        "gender_distribution": {
+            "male": 50.0,
+            "female": 50.0
+        },
+        "number_of_respondents": 320
+    },
+    "classification_questions": [
+        {
+            "question_id": "ecf2ac5c-f",
+            "question_text": "Where do you live?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 1,
+            "answer_options": [
+                {
+                    "id": "9d724d74-7",
+                    "text": "Atlanta, inside the Perimeter",
+                    "order": 1
+                },
+                {
+                    "id": "3a5bdbbd-e",
+                    "text": "Metro Atlanta, outside the Perimeter",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {
+                "optional_classification_question": false
+            },
+            "id": "0d1aa44d-c05f-4517-a304-fcf18cffe4a4"
+        },
+        {
+            "question_id": "10784a74-c",
+            "question_text": "What is your annual household income?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 2,
+            "answer_options": [
+                {
+                    "id": "9c047d02-1",
+                    "text": "Less than $75,000",
+                    "order": 1
+                },
+                {
+                    "id": "48101c86-2",
+                    "text": "$75,000 or more",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {
+                "optional_classification_question": false
+            },
+            "id": "e9377a03-5649-4ff9-bf59-e17560920856"
+        },
+        {
+            "question_id": "b8578838-2",
+            "question_text": "What is your household size?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 3,
+            "answer_options": [
+                {
+                    "id": "aa5a4c38-9",
+                    "text": "Just me",
+                    "order": 1
+                },
+                {
+                    "id": "3f0586f2-5",
+                    "text": "2",
+                    "order": 2
+                },
+                {
+                    "id": "13b1dd20-4",
+                    "text": "3 to 4",
+                    "order": 3
+                },
+                {
+                    "id": "4b4beb11-6",
+                    "text": "5 or more",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {
+                "optional_classification_question": false
+            },
+            "id": "f01e9834-d95a-4503-a27b-fa7cd849513a"
+        },
+        {
+            "question_id": "5278e9ac-7",
+            "question_text": "How often do you attend outdoor festivals in Metro Atlanta?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 4,
+            "answer_options": [
+                {
+                    "id": "c5f74b2a-4",
+                    "text": "Never or rarely",
+                    "order": 1
+                },
+                {
+                    "id": "629304a2-6",
+                    "text": "At least a few times per year or more",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": false,
+            "config": {
+                "optional_classification_question": false
+            },
+            "id": "c6f1c591-8e74-4aa1-9b0f-0e5e7c23c0e8"
+        },
+        {
+            "question_id": "745f8c4b-4",
+            "question_text": "Have you ever heard of the company Fresh Harvest before?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 5,
+            "answer_options": [
+                {
+                    "id": "3d8beba3-3",
+                    "text": "Yes",
+                    "order": 1
+                },
+                {
+                    "id": "434d569e-2",
+                    "text": "No or not sure",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "799b8c47-1e11-4ea9-950f-2e749eaf1697"
+        },
+        {
+            "question_id": "ba3e8c82-0",
+            "question_text": "Have you ever used Fresh Harvest before?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 6,
+            "answer_options": [
+                {
+                    "id": "78bc791a-8",
+                    "text": "Yes",
+                    "order": 1
+                },
+                {
+                    "id": "bfa86fc0-d",
+                    "text": "No or not sure",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "886e0fa1-6f84-489e-a142-b02f95e5d584"
+        },
+        {
+            "question_id": "9738a4c9-b",
+            "question_text": "Based on the signs you just reviewed, which statement BEST describes Fresh Harvest?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 7,
+            "answer_options": [
+                {
+                    "id": "bc158970-6",
+                    "text": "An online farmers market with home delivery",
+                    "order": 1
+                },
+                {
+                    "id": "94743b5f-9",
+                    "text": "A weekly produce subscription from one farm",
+                    "order": 2
+                },
+                {
+                    "id": "98cf4c33-b",
+                    "text": "A meal kit delivery service",
+                    "order": 3
+                },
+                {
+                    "id": "f649d1f5-b",
+                    "text": "A local grocery store or farmers market",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "22dea0b3-5826-479e-b591-c054306493db"
+        },
+        {
+            "question_id": "bbc7d36b-d",
+            "question_text": "Based on the A-Frame signs you just reviewed, do you believe this statement is True or False? Fresh Harvest charges a subscription fee.",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 8,
+            "answer_options": [
+                {
+                    "id": "25eb1027-c",
+                    "text": "True",
+                    "order": 1
+                },
+                {
+                    "id": "3ddd2f07-f",
+                    "text": "False",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "beb95da3-1fae-4cfe-99d2-5ecc5a6fb984"
+        },
+        {
+            "question_id": "750e9e75-8",
+            "question_text": "Based on the A-Frame signs you just reviewed, do you believe this statement is True or False? Fresh Harvest allows you to customize every order.",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 9,
+            "answer_options": [
+                {
+                    "id": "2eae9d4c-d",
+                    "text": "True",
+                    "order": 1
+                },
+                {
+                    "id": "85a3a0fa-5",
+                    "text": "False",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "31b154cb-76f4-432a-b584-29d98566a529"
+        },
+        {
+            "question_id": "4fa54c69-3",
+            "question_text": "Based on the A-Frame signs you just reviewed, do you believe this statement is True or False? Fresh Harvest is a big, national brand.",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 10,
+            "answer_options": [
+                {
+                    "id": "14e09cda-2",
+                    "text": "True",
+                    "order": 1
+                },
+                {
+                    "id": "dfabd65f-8",
+                    "text": "False",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "932bcf07-ccb5-4574-a569-7add7140f53b"
+        },
+        {
+            "question_id": "94ebd9c1-f",
+            "question_text": "About how much does your household spend on groceries in a typical week?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 11,
+            "answer_options": [
+                {
+                    "id": "9680eeb3-6",
+                    "text": "Less than $200",
+                    "order": 1
+                },
+                {
+                    "id": "571d5746-0",
+                    "text": "$200 or more",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "23ce4be1-41f4-41c3-8608-44929c33b410"
+        },
+        {
+            "question_id": "1ab339f7-e",
+            "question_text": "How much of the groceries you purchase are organic?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 12,
+            "answer_options": [
+                {
+                    "id": "d4035f59-2",
+                    "text": "Little to none",
+                    "order": 1
+                },
+                {
+                    "id": "c44e0a4f-e",
+                    "text": "Some, but not most",
+                    "order": 2
+                },
+                {
+                    "id": "dea17b3c-7",
+                    "text": "Most, if not all",
+                    "order": 3
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "3d0e98e5-2fc3-48f2-a5c0-92ed0d4b0147"
+        },
+        {
+            "question_id": "81892025-1",
+            "question_text": "How often do you intentionally buy locally-grown fruits and vegetables?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 13,
+            "answer_options": [
+                {
+                    "id": "0fec9791-9",
+                    "text": "Rarely or never",
+                    "order": 1
+                },
+                {
+                    "id": "4b69d6ca-2",
+                    "text": "Sometimes",
+                    "order": 2
+                },
+                {
+                    "id": "e9e64752-6",
+                    "text": "Often",
+                    "order": 3
+                },
+                {
+                    "id": "1a7924ae-d",
+                    "text": "As much as possible",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "f7071d7c-2832-4b4e-8518-2a60d9ab3b18"
+        },
+        {
+            "question_id": "1aaf88aa-5",
+            "question_text": "How often do you typically cook meals at home?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 14,
+            "answer_options": [
+                {
+                    "id": "e2eab160-9",
+                    "text": "Less than once per week or never",
+                    "order": 1
+                },
+                {
+                    "id": "bba85a1d-8",
+                    "text": "At least once per week, if not more",
+                    "order": 2
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "5371a234-1640-4d46-b47f-4d5d0c8f4058"
+        },
+        {
+            "question_id": "7ee5ab93-0",
+            "question_text": "When you buy groceries, which of these do you prioritize the most?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 15,
+            "answer_options": [
+                {
+                    "id": "3f14ae37-3",
+                    "text": "Local",
+                    "order": 1
+                },
+                {
+                    "id": "9a12c766-5",
+                    "text": "Organic",
+                    "order": 2
+                },
+                {
+                    "id": "645c7d96-a",
+                    "text": "Convenience",
+                    "order": 3
+                },
+                {
+                    "id": "3666af19-d",
+                    "text": "Price",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "60dd6f0c-3437-48f5-a541-07669517cb97"
+        },
+        {
+            "question_id": "5dad536b-9",
+            "question_text": "When you buy groceries, which of the following do you prioritize the most?",
+            "question_type": "multiple_choice",
+            "is_required": true,
+            "order": 16,
+            "answer_options": [
+                {
+                    "id": "9003c6c4-2",
+                    "text": "Sustainability",
+                    "order": 1
+                },
+                {
+                    "id": "304554e4-b",
+                    "text": "Sourcing Transparency",
+                    "order": 2
+                },
+                {
+                    "id": "ba441a73-f",
+                    "text": "Seasonality",
+                    "order": 3
+                },
+                {
+                    "id": "f1a8a9c4-c",
+                    "text": "Health",
+                    "order": 4
+                }
+            ],
+            "optional_classification_question": true,
+            "config": {
+                "optional_classification_question": true
+            },
+            "id": "075c1809-7d8d-43e7-aa11-6195fc350465"
+        }
+    ],
+    "element_count": 62,
+    "layers": [
+        {
+            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+            "name": "Backgrounds",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 0,
+            "order": 0,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "79e06c96-75c6-4a91-8f2c-f778a7269bb8",
+                    "name": "Background Layer Cotton",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                    "alt_text": "Background Layer Cotton",
+                    "order": 0
+                },
+                {
+                    "image_id": "f1fe0fde-6b96-41b8-972b-9d80e3bf5d9e",
+                    "name": "Background Layer Cream",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/de6aa46bc10441b0be5786cd70315532_Background Layer Cream.png",
+                    "alt_text": "Background Layer Cream",
+                    "order": 1
+                },
+                {
+                    "image_id": "62971151-3579-4c79-87e3-e347d69f0684",
+                    "name": "Background Layer Lemon",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9c2f80fc64214b3da863a9158bff4c32_Background Layer Lemon.png",
+                    "alt_text": "Background Layer Lemon",
+                    "order": 2
+                },
+                {
+                    "image_id": "f48fd376-f9e8-4e22-901b-72a792c5df64",
+                    "name": "Background Layer Melon",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/25be18f58ae048bbaad8ff9c04909cb9_Background Layer Melon.png",
+                    "alt_text": "Background Layer Melon",
+                    "order": 3
+                },
+                {
+                    "image_id": "b8b368bf-7313-4e31-8736-dd3685fe4a65",
+                    "name": "Background Layer Mint",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/965bf8104bb5409faacaf306c729f1d5_Background Layer Mint.png",
+                    "alt_text": "Background Layer Mint",
+                    "order": 4
+                },
+                {
+                    "image_id": "faaa4b2f-f0a9-466f-b41a-fe4aae273d98",
+                    "name": "Background Layer Sky",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/8668a0087b0e43e0b7b20f0bd62adaf7_Background Layer Sky.png",
+                    "alt_text": "Background Layer Sky",
+                    "order": 5
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "79e06c96-75c6-4a91-8f2c-f778a7269bb8",
+                    "name": "Background Layer Cotton",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                    "alt_text": "Background Layer Cotton",
+                    "order": 0
+                },
+                {
+                    "image_id": "f1fe0fde-6b96-41b8-972b-9d80e3bf5d9e",
+                    "name": "Background Layer Cream",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/de6aa46bc10441b0be5786cd70315532_Background Layer Cream.png",
+                    "alt_text": "Background Layer Cream",
+                    "order": 1
+                },
+                {
+                    "image_id": "62971151-3579-4c79-87e3-e347d69f0684",
+                    "name": "Background Layer Lemon",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9c2f80fc64214b3da863a9158bff4c32_Background Layer Lemon.png",
+                    "alt_text": "Background Layer Lemon",
+                    "order": 2
+                },
+                {
+                    "image_id": "f48fd376-f9e8-4e22-901b-72a792c5df64",
+                    "name": "Background Layer Melon",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/25be18f58ae048bbaad8ff9c04909cb9_Background Layer Melon.png",
+                    "alt_text": "Background Layer Melon",
+                    "order": 3
+                },
+                {
+                    "image_id": "b8b368bf-7313-4e31-8736-dd3685fe4a65",
+                    "name": "Background Layer Mint",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/965bf8104bb5409faacaf306c729f1d5_Background Layer Mint.png",
+                    "alt_text": "Background Layer Mint",
+                    "order": 4
+                },
+                {
+                    "image_id": "faaa4b2f-f0a9-466f-b41a-fe4aae273d98",
+                    "name": "Background Layer Sky",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/8668a0087b0e43e0b7b20f0bd62adaf7_Background Layer Sky.png",
+                    "alt_text": "Background Layer Sky",
+                    "order": 5
+                }
+            ]
+        },
+        {
+            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+            "name": "Headlines",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 1,
+            "order": 1,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "b3d941ac-805d-4ddf-8fe4-e02662ca1bb2",
+                    "name": "HEADLINE - Do you know where your food comes from",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/12fa3992c048468b86dc7a865bdfeee2_HEADLINE - Do you know where your food comes from.png",
+                    "alt_text": "HEADLINE - Do you know where your food comes from",
+                    "order": 0
+                },
+                {
+                    "image_id": "2124940c-3870-4111-9b86-084a8f1ca547",
+                    "name": "HEADLINE - Eat Local Eat Organic Eat Better",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/f8144e817fe04fe2961724ab6b6a1aad_HEADLINE - Eat Local Eat Organic Eat Better.png",
+                    "alt_text": "HEADLINE - Eat Local Eat Organic Eat Better",
+                    "order": 1
+                },
+                {
+                    "image_id": "d696d7de-e5d3-4092-bf9e-cd28a44ad927",
+                    "name": "HEADLINE - Georgia Farms Delivered",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/10abdc0e59894f519484d423bb3bc072_HEADLINE - Georgia Farms Delivered.png",
+                    "alt_text": "HEADLINE - Georgia Farms Delivered",
+                    "order": 2
+                },
+                {
+                    "image_id": "f10ed124-c03b-403c-80a0-fd10d6539741",
+                    "name": "HEADLINE - Good Food For Every Table",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/6294583e8f8e4c5fb52662891661b000_HEADLINE - Good Food For Every Table.png",
+                    "alt_text": "HEADLINE - Good Food For Every Table",
+                    "order": 3
+                },
+                {
+                    "image_id": "38f4f257-7832-405f-954f-b174306677b0",
+                    "name": "HEADLINE - Good for People and the Planet",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                    "alt_text": "HEADLINE - Good for People and the Planet",
+                    "order": 4
+                },
+                {
+                    "image_id": "05d9a025-1da6-4419-bf34-b017e6b4d573",
+                    "name": "HEADLINE - Guess the Price of Our Box to Win",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/1fa20f39d3594abf93000fbabe513bcf_HEADLINE - Guess the Price of Our Box to Win.png",
+                    "alt_text": "HEADLINE - Guess the Price of Our Box to Win",
+                    "order": 5
+                },
+                {
+                    "image_id": "c13e5e72-80c9-453f-9f75-5420e143b5e0",
+                    "name": "HEADLINE - Keep Your Food Dollars Local",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e7370f0a3f7f4e7eb237978d119f5ed1_HEADLINE - Keep Your Food Dollars Local.png",
+                    "alt_text": "HEADLINE - Keep Your Food Dollars Local",
+                    "order": 6
+                },
+                {
+                    "image_id": "fb10d148-4119-4288-b1c3-b6a80c672a25",
+                    "name": "HEADLINE - Metro Atlanta’s Online Farmers Market",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ceae1ef711374b229bad7905a133238c_HEADLINE - Metro Atlanta’s Online Farmers Market.png",
+                    "alt_text": "HEADLINE - Metro Atlanta’s Online Farmers Market",
+                    "order": 7
+                },
+                {
+                    "image_id": "c375ed01-3ef8-4d61-ac39-ca2d00c8e564",
+                    "name": "HEADLINE - Organic Groceries Fair Prices",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/261800dde7ff4d4897933ca7752befad_HEADLINE - Organic Groceries Fair Prices.png",
+                    "alt_text": "HEADLINE - Organic Groceries Fair Prices",
+                    "order": 8
+                },
+                {
+                    "image_id": "1357f726-ac3b-404c-80eb-b403443b771d",
+                    "name": "HEADLINE - Prefer Big Grocery Chains Keep Walking",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/506e01f88988460c8542cfea018e4d15_HEADLINE - Prefer Big Grocery Chains Keep Walking.png",
+                    "alt_text": "HEADLINE - Prefer Big Grocery Chains Keep Walking",
+                    "order": 9
+                },
+                {
+                    "image_id": "8f1d6cd6-4914-49db-8291-07e6f49290c2",
+                    "name": "HEADLINE - Seasonal Eating Made Easy",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ca7d0944acaa4f19aa39894cd21ead0d_HEADLINE - Seasonal Eating Made Easy.png",
+                    "alt_text": "HEADLINE - Seasonal Eating Made Easy",
+                    "order": 10
+                },
+                {
+                    "image_id": "2a036504-b383-4e7e-a3e9-6591bdc48af1",
+                    "name": "HEADLINE - Skip The Grocery Store",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4b2e4d2875a14ad1ae235e332f1858be_HEADLINE - Skip The Grocery Store.png",
+                    "alt_text": "HEADLINE - Skip The Grocery Store",
+                    "order": 11
+                },
+                {
+                    "image_id": "b2338102-0cda-4728-87a7-2f16b0284a48",
+                    "name": "HEADLINE - We Support Georgia Farms You Can Too",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/00b5c5047e4a4a6e8e3bea14dac5a285_HEADLINE - We Support Georgia Farms You Can Too.png",
+                    "alt_text": "HEADLINE - We Support Georgia Farms You Can Too",
+                    "order": 12
+                },
+                {
+                    "image_id": "23b86f75-5cef-474f-82ca-3b47d2b09b7d",
+                    "name": "HEADLINE - Win a Free Month of Groceries",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/15dd55c8b9b543c9a4898433ef842985_HEADLINE - Win a Free Month of Groceries.png",
+                    "alt_text": "HEADLINE - Win a Free Month of Groceries",
+                    "order": 13
+                },
+                {
+                    "image_id": "35ebb7c1-8d86-4901-98b4-a363a41bf8de",
+                    "name": "HEADLINE - 80 Sourced Within 70 Miles",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a2ee5a3d030b4ad2836709a36bba0c2d_HEADLINE - 80 Sourced Within 70 Miles.png",
+                    "alt_text": "HEADLINE - 80 Sourced Within 70 Miles",
+                    "order": 14
+                },
+                {
+                    "image_id": "8b6aec9f-d328-4051-b27b-4be66d2f4371",
+                    "name": "HEADLINE - Visit Our Booth for 50 Off",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/44c9bf19590e46beb94ab6e93341c42a_HEADLINE - Visit Our Booth for 50 Off.png",
+                    "alt_text": "HEADLINE - Visit Our Booth for 50 Off",
+                    "order": 15
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "b3d941ac-805d-4ddf-8fe4-e02662ca1bb2",
+                    "name": "HEADLINE - Do you know where your food comes from",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/12fa3992c048468b86dc7a865bdfeee2_HEADLINE - Do you know where your food comes from.png",
+                    "alt_text": "HEADLINE - Do you know where your food comes from",
+                    "order": 0
+                },
+                {
+                    "image_id": "2124940c-3870-4111-9b86-084a8f1ca547",
+                    "name": "HEADLINE - Eat Local Eat Organic Eat Better",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/f8144e817fe04fe2961724ab6b6a1aad_HEADLINE - Eat Local Eat Organic Eat Better.png",
+                    "alt_text": "HEADLINE - Eat Local Eat Organic Eat Better",
+                    "order": 1
+                },
+                {
+                    "image_id": "d696d7de-e5d3-4092-bf9e-cd28a44ad927",
+                    "name": "HEADLINE - Georgia Farms Delivered",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/10abdc0e59894f519484d423bb3bc072_HEADLINE - Georgia Farms Delivered.png",
+                    "alt_text": "HEADLINE - Georgia Farms Delivered",
+                    "order": 2
+                },
+                {
+                    "image_id": "f10ed124-c03b-403c-80a0-fd10d6539741",
+                    "name": "HEADLINE - Good Food For Every Table",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/6294583e8f8e4c5fb52662891661b000_HEADLINE - Good Food For Every Table.png",
+                    "alt_text": "HEADLINE - Good Food For Every Table",
+                    "order": 3
+                },
+                {
+                    "image_id": "38f4f257-7832-405f-954f-b174306677b0",
+                    "name": "HEADLINE - Good for People and the Planet",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                    "alt_text": "HEADLINE - Good for People and the Planet",
+                    "order": 4
+                },
+                {
+                    "image_id": "05d9a025-1da6-4419-bf34-b017e6b4d573",
+                    "name": "HEADLINE - Guess the Price of Our Box to Win",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/1fa20f39d3594abf93000fbabe513bcf_HEADLINE - Guess the Price of Our Box to Win.png",
+                    "alt_text": "HEADLINE - Guess the Price of Our Box to Win",
+                    "order": 5
+                },
+                {
+                    "image_id": "c13e5e72-80c9-453f-9f75-5420e143b5e0",
+                    "name": "HEADLINE - Keep Your Food Dollars Local",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e7370f0a3f7f4e7eb237978d119f5ed1_HEADLINE - Keep Your Food Dollars Local.png",
+                    "alt_text": "HEADLINE - Keep Your Food Dollars Local",
+                    "order": 6
+                },
+                {
+                    "image_id": "fb10d148-4119-4288-b1c3-b6a80c672a25",
+                    "name": "HEADLINE - Metro Atlanta’s Online Farmers Market",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ceae1ef711374b229bad7905a133238c_HEADLINE - Metro Atlanta’s Online Farmers Market.png",
+                    "alt_text": "HEADLINE - Metro Atlanta’s Online Farmers Market",
+                    "order": 7
+                },
+                {
+                    "image_id": "c375ed01-3ef8-4d61-ac39-ca2d00c8e564",
+                    "name": "HEADLINE - Organic Groceries Fair Prices",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/261800dde7ff4d4897933ca7752befad_HEADLINE - Organic Groceries Fair Prices.png",
+                    "alt_text": "HEADLINE - Organic Groceries Fair Prices",
+                    "order": 8
+                },
+                {
+                    "image_id": "1357f726-ac3b-404c-80eb-b403443b771d",
+                    "name": "HEADLINE - Prefer Big Grocery Chains Keep Walking",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/506e01f88988460c8542cfea018e4d15_HEADLINE - Prefer Big Grocery Chains Keep Walking.png",
+                    "alt_text": "HEADLINE - Prefer Big Grocery Chains Keep Walking",
+                    "order": 9
+                },
+                {
+                    "image_id": "8f1d6cd6-4914-49db-8291-07e6f49290c2",
+                    "name": "HEADLINE - Seasonal Eating Made Easy",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ca7d0944acaa4f19aa39894cd21ead0d_HEADLINE - Seasonal Eating Made Easy.png",
+                    "alt_text": "HEADLINE - Seasonal Eating Made Easy",
+                    "order": 10
+                },
+                {
+                    "image_id": "2a036504-b383-4e7e-a3e9-6591bdc48af1",
+                    "name": "HEADLINE - Skip The Grocery Store",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4b2e4d2875a14ad1ae235e332f1858be_HEADLINE - Skip The Grocery Store.png",
+                    "alt_text": "HEADLINE - Skip The Grocery Store",
+                    "order": 11
+                },
+                {
+                    "image_id": "b2338102-0cda-4728-87a7-2f16b0284a48",
+                    "name": "HEADLINE - We Support Georgia Farms You Can Too",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/00b5c5047e4a4a6e8e3bea14dac5a285_HEADLINE - We Support Georgia Farms You Can Too.png",
+                    "alt_text": "HEADLINE - We Support Georgia Farms You Can Too",
+                    "order": 12
+                },
+                {
+                    "image_id": "23b86f75-5cef-474f-82ca-3b47d2b09b7d",
+                    "name": "HEADLINE - Win a Free Month of Groceries",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/15dd55c8b9b543c9a4898433ef842985_HEADLINE - Win a Free Month of Groceries.png",
+                    "alt_text": "HEADLINE - Win a Free Month of Groceries",
+                    "order": 13
+                },
+                {
+                    "image_id": "35ebb7c1-8d86-4901-98b4-a363a41bf8de",
+                    "name": "HEADLINE - 80 Sourced Within 70 Miles",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a2ee5a3d030b4ad2836709a36bba0c2d_HEADLINE - 80 Sourced Within 70 Miles.png",
+                    "alt_text": "HEADLINE - 80 Sourced Within 70 Miles",
+                    "order": 14
+                },
+                {
+                    "image_id": "8b6aec9f-d328-4051-b27b-4be66d2f4371",
+                    "name": "HEADLINE - Visit Our Booth for 50 Off",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/44c9bf19590e46beb94ab6e93341c42a_HEADLINE - Visit Our Booth for 50 Off.png",
+                    "alt_text": "HEADLINE - Visit Our Booth for 50 Off",
+                    "order": 15
+                }
+            ]
+        },
+        {
+            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+            "name": "Sub Headers",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 2,
+            "order": 2,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "372e8eed-c22a-4b8f-b9a3-c6f25fda5129",
+                    "name": "Sub-Header - 80 Sourced Within 70 Miles",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/35597bc751fc44acb1f8eeb72a3b1597_Sub-Header - 80 Sourced Within 70 Miles.png",
+                    "alt_text": "Sub-Header - 80 Sourced Within 70 Miles",
+                    "order": 0
+                },
+                {
+                    "image_id": "65ade8ca-16b9-42c3-bc61-eba4e1ee745f",
+                    "name": "Sub-Header - Do you know where your food comes from",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/812da3abced1489db8a45043833dacab_Sub-Header - Do you know where your food comes from.png",
+                    "alt_text": "Sub-Header - Do you know where your food comes from",
+                    "order": 1
+                },
+                {
+                    "image_id": "4c0b9228-a45f-4507-95c0-77317f97ef13",
+                    "name": "Sub-Header - Eat Local Eat Organic Eat Better",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a6ff8cf5422549f69f1b7bd0f7941f62_Sub-Header - Eat Local Eat Organic Eat Better.png",
+                    "alt_text": "Sub-Header - Eat Local Eat Organic Eat Better",
+                    "order": 2
+                },
+                {
+                    "image_id": "2ba8af69-d0c0-46ce-b09e-6412999d4a97",
+                    "name": "Sub-Header - Georgia Farms Delivered",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c0f8df3f630643a38e14def7216f4ba7_Sub-Header - Georgia Farms Delivered.png",
+                    "alt_text": "Sub-Header - Georgia Farms Delivered",
+                    "order": 3
+                },
+                {
+                    "image_id": "b568a29e-8d73-4c37-9f81-6fa3075cabb9",
+                    "name": "Sub-Header - Good Food For Every Table",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/204aca7320aa4c7ea23a570f9e542918_Sub-Header - Good Food For Every Table.png",
+                    "alt_text": "Sub-Header - Good Food For Every Table",
+                    "order": 4
+                },
+                {
+                    "image_id": "e1d5680e-ec05-4788-9346-0c964175d6ea",
+                    "name": "Sub-Header - Good for People and the Planet",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/520c36c07cdb40e7a1c1b0eebe7ac22c_Sub-Header - Good for People and the Planet.png",
+                    "alt_text": "Sub-Header - Good for People and the Planet",
+                    "order": 5
+                },
+                {
+                    "image_id": "562d5b74-bda4-488f-af04-269f3a60003c",
+                    "name": "Sub-Header - Guess the Price of Our Box to Win!",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/27d618dafdb24b349e71de413588b9b8_Sub-Header - Guess the Price of Our Box to Win!.png",
+                    "alt_text": "Sub-Header - Guess the Price of Our Box to Win!",
+                    "order": 6
+                },
+                {
+                    "image_id": "0231ee1f-b427-46de-a610-25b0c1c5eb6a",
+                    "name": "Sub-Header - Keep Your Food Dollars Local",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ab7bcd988132410ab52c314f4686db6c_Sub-Header - Keep Your Food Dollars Local.png",
+                    "alt_text": "Sub-Header - Keep Your Food Dollars Local",
+                    "order": 7
+                },
+                {
+                    "image_id": "ea76e9e8-abb6-4da3-95ec-3fcf078816e9",
+                    "name": "Sub-Header - Metro Atlanta’s Online Farmers Market",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e984c54747694cd298aabefea40b2fd3_Sub-Header - Metro Atlanta’s Online Farmers Market.png",
+                    "alt_text": "Sub-Header - Metro Atlanta’s Online Farmers Market",
+                    "order": 8
+                },
+                {
+                    "image_id": "e6daa9de-eff8-4493-8866-c73763a1b46c",
+                    "name": "Sub-Header - Organic Groceries Fair Prices",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/dc04342fe6c94f76a8d882a08ab3bc57_Sub-Header - Organic Groceries Fair Prices.png",
+                    "alt_text": "Sub-Header - Organic Groceries Fair Prices",
+                    "order": 9
+                },
+                {
+                    "image_id": "3337cd8f-dd3e-4e82-8fb0-81c0fe89e3a6",
+                    "name": "Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5d4d1368be634adb83ccbdda0f838de7_Sub-Header - Prefer Big Grocery Chains_ Keep Walking.png",
+                    "alt_text": "Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                    "order": 10
+                },
+                {
+                    "image_id": "9db8ce76-8c7b-44db-98cc-9cbfb64d896b",
+                    "name": "Sub-Header - Seasonal Eating Made Easy",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2ed579cd342b448e8d7ef9d81501d61d_Sub-Header - Seasonal Eating Made Easy.png",
+                    "alt_text": "Sub-Header - Seasonal Eating Made Easy",
+                    "order": 11
+                },
+                {
+                    "image_id": "ef035786-bca8-4827-ad08-afdd3a4dc77b",
+                    "name": "Sub-Header - Skip The Grocery Store",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/efd73edefdaf4652977a544a6035bde7_Sub-Header - Skip The Grocery Store.png",
+                    "alt_text": "Sub-Header - Skip The Grocery Store",
+                    "order": 12
+                },
+                {
+                    "image_id": "e4151cab-26ae-4bd4-bf1e-1ea4f15c5b52",
+                    "name": "Sub-Header - We Support Georgia Farms You Can Too",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/43cb56b6f9614f43b5cc252f56ebdb38_Sub-Header - We Support Georgia Farms You Can Too.png",
+                    "alt_text": "Sub-Header - We Support Georgia Farms You Can Too",
+                    "order": 13
+                },
+                {
+                    "image_id": "b39bef94-eb9f-4bbf-860e-6b23ca400dec",
+                    "name": "Sub-Header - Win a Free Month of Groceries!",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/92bc82a83a7a431f816cafb397ea9f6b_Sub-Header - Win a Free Month of Groceries!.png",
+                    "alt_text": "Sub-Header - Win a Free Month of Groceries!",
+                    "order": 14
+                },
+                {
+                    "image_id": "6df098fe-0ed0-45b1-8b7b-bb7bff4d8c77",
+                    "name": "Sub-Header - Visit Our Booth for 50 Off",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/025a7ab91c524d2aac4c98b32c875b5c_Sub-Header - Visit Our Booth for 50 Off.png",
+                    "alt_text": "Sub-Header - Visit Our Booth for 50 Off",
+                    "order": 15
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "372e8eed-c22a-4b8f-b9a3-c6f25fda5129",
+                    "name": "Sub-Header - 80 Sourced Within 70 Miles",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/35597bc751fc44acb1f8eeb72a3b1597_Sub-Header - 80 Sourced Within 70 Miles.png",
+                    "alt_text": "Sub-Header - 80 Sourced Within 70 Miles",
+                    "order": 0
+                },
+                {
+                    "image_id": "65ade8ca-16b9-42c3-bc61-eba4e1ee745f",
+                    "name": "Sub-Header - Do you know where your food comes from",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/812da3abced1489db8a45043833dacab_Sub-Header - Do you know where your food comes from.png",
+                    "alt_text": "Sub-Header - Do you know where your food comes from",
+                    "order": 1
+                },
+                {
+                    "image_id": "4c0b9228-a45f-4507-95c0-77317f97ef13",
+                    "name": "Sub-Header - Eat Local Eat Organic Eat Better",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a6ff8cf5422549f69f1b7bd0f7941f62_Sub-Header - Eat Local Eat Organic Eat Better.png",
+                    "alt_text": "Sub-Header - Eat Local Eat Organic Eat Better",
+                    "order": 2
+                },
+                {
+                    "image_id": "2ba8af69-d0c0-46ce-b09e-6412999d4a97",
+                    "name": "Sub-Header - Georgia Farms Delivered",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c0f8df3f630643a38e14def7216f4ba7_Sub-Header - Georgia Farms Delivered.png",
+                    "alt_text": "Sub-Header - Georgia Farms Delivered",
+                    "order": 3
+                },
+                {
+                    "image_id": "b568a29e-8d73-4c37-9f81-6fa3075cabb9",
+                    "name": "Sub-Header - Good Food For Every Table",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/204aca7320aa4c7ea23a570f9e542918_Sub-Header - Good Food For Every Table.png",
+                    "alt_text": "Sub-Header - Good Food For Every Table",
+                    "order": 4
+                },
+                {
+                    "image_id": "e1d5680e-ec05-4788-9346-0c964175d6ea",
+                    "name": "Sub-Header - Good for People and the Planet",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/520c36c07cdb40e7a1c1b0eebe7ac22c_Sub-Header - Good for People and the Planet.png",
+                    "alt_text": "Sub-Header - Good for People and the Planet",
+                    "order": 5
+                },
+                {
+                    "image_id": "562d5b74-bda4-488f-af04-269f3a60003c",
+                    "name": "Sub-Header - Guess the Price of Our Box to Win!",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/27d618dafdb24b349e71de413588b9b8_Sub-Header - Guess the Price of Our Box to Win!.png",
+                    "alt_text": "Sub-Header - Guess the Price of Our Box to Win!",
+                    "order": 6
+                },
+                {
+                    "image_id": "0231ee1f-b427-46de-a610-25b0c1c5eb6a",
+                    "name": "Sub-Header - Keep Your Food Dollars Local",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ab7bcd988132410ab52c314f4686db6c_Sub-Header - Keep Your Food Dollars Local.png",
+                    "alt_text": "Sub-Header - Keep Your Food Dollars Local",
+                    "order": 7
+                },
+                {
+                    "image_id": "ea76e9e8-abb6-4da3-95ec-3fcf078816e9",
+                    "name": "Sub-Header - Metro Atlanta’s Online Farmers Market",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e984c54747694cd298aabefea40b2fd3_Sub-Header - Metro Atlanta’s Online Farmers Market.png",
+                    "alt_text": "Sub-Header - Metro Atlanta’s Online Farmers Market",
+                    "order": 8
+                },
+                {
+                    "image_id": "e6daa9de-eff8-4493-8866-c73763a1b46c",
+                    "name": "Sub-Header - Organic Groceries Fair Prices",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/dc04342fe6c94f76a8d882a08ab3bc57_Sub-Header - Organic Groceries Fair Prices.png",
+                    "alt_text": "Sub-Header - Organic Groceries Fair Prices",
+                    "order": 9
+                },
+                {
+                    "image_id": "3337cd8f-dd3e-4e82-8fb0-81c0fe89e3a6",
+                    "name": "Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5d4d1368be634adb83ccbdda0f838de7_Sub-Header - Prefer Big Grocery Chains_ Keep Walking.png",
+                    "alt_text": "Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                    "order": 10
+                },
+                {
+                    "image_id": "9db8ce76-8c7b-44db-98cc-9cbfb64d896b",
+                    "name": "Sub-Header - Seasonal Eating Made Easy",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2ed579cd342b448e8d7ef9d81501d61d_Sub-Header - Seasonal Eating Made Easy.png",
+                    "alt_text": "Sub-Header - Seasonal Eating Made Easy",
+                    "order": 11
+                },
+                {
+                    "image_id": "ef035786-bca8-4827-ad08-afdd3a4dc77b",
+                    "name": "Sub-Header - Skip The Grocery Store",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/efd73edefdaf4652977a544a6035bde7_Sub-Header - Skip The Grocery Store.png",
+                    "alt_text": "Sub-Header - Skip The Grocery Store",
+                    "order": 12
+                },
+                {
+                    "image_id": "e4151cab-26ae-4bd4-bf1e-1ea4f15c5b52",
+                    "name": "Sub-Header - We Support Georgia Farms You Can Too",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/43cb56b6f9614f43b5cc252f56ebdb38_Sub-Header - We Support Georgia Farms You Can Too.png",
+                    "alt_text": "Sub-Header - We Support Georgia Farms You Can Too",
+                    "order": 13
+                },
+                {
+                    "image_id": "b39bef94-eb9f-4bbf-860e-6b23ca400dec",
+                    "name": "Sub-Header - Win a Free Month of Groceries!",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/92bc82a83a7a431f816cafb397ea9f6b_Sub-Header - Win a Free Month of Groceries!.png",
+                    "alt_text": "Sub-Header - Win a Free Month of Groceries!",
+                    "order": 14
+                },
+                {
+                    "image_id": "6df098fe-0ed0-45b1-8b7b-bb7bff4d8c77",
+                    "name": "Sub-Header - Visit Our Booth for 50 Off",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/025a7ab91c524d2aac4c98b32c875b5c_Sub-Header - Visit Our Booth for 50 Off.png",
+                    "alt_text": "Sub-Header - Visit Our Booth for 50 Off",
+                    "order": 15
+                }
+            ]
+        },
+        {
+            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+            "name": "Images",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 3,
+            "order": 3,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "0ff53bba-f698-49d3-a220-cb5f02c79bb9",
+                    "name": "Image Layer_ Box Graphic",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/edf1715a32d14b27a242c826a802dfa5_Image Layer_ Box Graphic.png",
+                    "alt_text": "Image Layer_ Box Graphic",
+                    "order": 0
+                },
+                {
+                    "image_id": "6cab32cf-41d4-428b-ac04-fc12c169c9ca",
+                    "name": "Image Layer_ Box",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                    "alt_text": "Image Layer_ Box",
+                    "order": 1
+                },
+                {
+                    "image_id": "b80cb7e2-9dfb-4839-b436-8c305ebe6c34",
+                    "name": "Image Layer_ Delivery Graphic",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ffa714ce0fb24fab836a6de8dcfe592d_Image Layer_ Delivery Graphic.png",
+                    "alt_text": "Image Layer_ Delivery Graphic",
+                    "order": 2
+                },
+                {
+                    "image_id": "e78ae000-2cdd-44a5-88f8-d84fa9bd1a6d",
+                    "name": "Image Layer_ Farm",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/859e7e14b16244b891cd03414f38819c_Image Layer_ Farm.png",
+                    "alt_text": "Image Layer_ Farm",
+                    "order": 3
+                },
+                {
+                    "image_id": "70dc077e-4567-4e15-87bd-65510af6fd61",
+                    "name": "Image Layer_ Grocery",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b0fff0b00bb74254bd6575e5eccd104f_Image Layer_ Grocery.png",
+                    "alt_text": "Image Layer_ Grocery",
+                    "order": 4
+                },
+                {
+                    "image_id": "89aea53c-d723-46c6-a937-c368cb62375c",
+                    "name": "Image Layer_ Lifestyle",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9fb52f1796b04ca7a24d3635d2715cae_Image Layer_ Lifestyle.png",
+                    "alt_text": "Image Layer_ Lifestyle",
+                    "order": 5
+                },
+                {
+                    "image_id": "c0c92b90-6cfd-47cd-9b6c-951c83e4a918",
+                    "name": "Image Layer_ Map Graphic",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4934baec49854371a154d262a524673a_Image Layer_ Map Graphic.png",
+                    "alt_text": "Image Layer_ Map Graphic",
+                    "order": 6
+                },
+                {
+                    "image_id": "17a392b1-174e-4ffa-be04-c21fad507f88",
+                    "name": "Image Layer_ Produce",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                    "alt_text": "Image Layer_ Produce",
+                    "order": 7
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "0ff53bba-f698-49d3-a220-cb5f02c79bb9",
+                    "name": "Image Layer_ Box Graphic",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/edf1715a32d14b27a242c826a802dfa5_Image Layer_ Box Graphic.png",
+                    "alt_text": "Image Layer_ Box Graphic",
+                    "order": 0
+                },
+                {
+                    "image_id": "6cab32cf-41d4-428b-ac04-fc12c169c9ca",
+                    "name": "Image Layer_ Box",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                    "alt_text": "Image Layer_ Box",
+                    "order": 1
+                },
+                {
+                    "image_id": "b80cb7e2-9dfb-4839-b436-8c305ebe6c34",
+                    "name": "Image Layer_ Delivery Graphic",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ffa714ce0fb24fab836a6de8dcfe592d_Image Layer_ Delivery Graphic.png",
+                    "alt_text": "Image Layer_ Delivery Graphic",
+                    "order": 2
+                },
+                {
+                    "image_id": "e78ae000-2cdd-44a5-88f8-d84fa9bd1a6d",
+                    "name": "Image Layer_ Farm",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/859e7e14b16244b891cd03414f38819c_Image Layer_ Farm.png",
+                    "alt_text": "Image Layer_ Farm",
+                    "order": 3
+                },
+                {
+                    "image_id": "70dc077e-4567-4e15-87bd-65510af6fd61",
+                    "name": "Image Layer_ Grocery",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b0fff0b00bb74254bd6575e5eccd104f_Image Layer_ Grocery.png",
+                    "alt_text": "Image Layer_ Grocery",
+                    "order": 4
+                },
+                {
+                    "image_id": "89aea53c-d723-46c6-a937-c368cb62375c",
+                    "name": "Image Layer_ Lifestyle",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9fb52f1796b04ca7a24d3635d2715cae_Image Layer_ Lifestyle.png",
+                    "alt_text": "Image Layer_ Lifestyle",
+                    "order": 5
+                },
+                {
+                    "image_id": "c0c92b90-6cfd-47cd-9b6c-951c83e4a918",
+                    "name": "Image Layer_ Map Graphic",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4934baec49854371a154d262a524673a_Image Layer_ Map Graphic.png",
+                    "alt_text": "Image Layer_ Map Graphic",
+                    "order": 6
+                },
+                {
+                    "image_id": "17a392b1-174e-4ffa-be04-c21fad507f88",
+                    "name": "Image Layer_ Produce",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                    "alt_text": "Image Layer_ Produce",
+                    "order": 7
+                }
+            ]
+        },
+        {
+            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+            "name": "CTA",
+            "description": "",
+            "layer_type": "image",
+            "z_index": 4,
+            "order": 4,
+            "transform": {
+                "x": 0.0,
+                "y": 0.0,
+                "width": 100.0,
+                "height": 100.0
+            },
+            "elements": [
+                {
+                    "image_id": "5f698606-93ff-4c62-bfae-7b3a2fecb262",
+                    "name": "CTA - 80 Sourced Within 70 Miles",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ed304a921dcd4bae82d457b446c952dd_CTA - 80 Sourced Within 70 Miles.png",
+                    "alt_text": "CTA - 80 Sourced Within 70 Miles",
+                    "order": 0
+                },
+                {
+                    "image_id": "80c971d1-ad86-490c-b211-43479dabfb23",
+                    "name": "CTA - Do you know where your food comes from",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/590f5ccbe0d349e6856b5c643090c7d0_CTA - Do you know where your food comes from.png",
+                    "alt_text": "CTA - Do you know where your food comes from",
+                    "order": 1
+                },
+                {
+                    "image_id": "dd9fc9e0-04fc-4a02-ba37-8a35782c3d46",
+                    "name": "CTA - Eat Local Eat Organic Eat Better",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/68b10d38ed154ee99b02a49580bf335d_CTA - Eat Local Eat Organic Eat Better.png",
+                    "alt_text": "CTA - Eat Local Eat Organic Eat Better",
+                    "order": 2
+                },
+                {
+                    "image_id": "5d65d207-857b-45ec-be92-1531fe9d8d43",
+                    "name": "CTA - Georgia Farms Delivered",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4a8e569a34ab4d17942283da48375e94_CTA - Georgia Farms Delivered.png",
+                    "alt_text": "CTA - Georgia Farms Delivered",
+                    "order": 3
+                },
+                {
+                    "image_id": "e5b7d588-e1e5-40c4-b588-7abd19ae18a7",
+                    "name": "CTA - Good Food For Every Table",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/60a3eae51e65466cb629ecb57290bfa8_CTA - Good Food For Every Table.png",
+                    "alt_text": "CTA - Good Food For Every Table",
+                    "order": 4
+                },
+                {
+                    "image_id": "d5f027d3-462f-475d-bb37-c6423a26b30a",
+                    "name": "CTA - Good for People and the Planet",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                    "alt_text": "CTA - Good for People and the Planet",
+                    "order": 5
+                },
+                {
+                    "image_id": "76a63fef-9a13-4c55-aae4-a3f248fd31ff",
+                    "name": "CTA - Guess the Price of Our Box to Win!",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7f03ac7c5305403d9cb9ba83c90be7cf_CTA - Guess the Price of Our Box to Win!.png",
+                    "alt_text": "CTA - Guess the Price of Our Box to Win!",
+                    "order": 6
+                },
+                {
+                    "image_id": "078d1087-fcb0-442a-bcfa-d46c12ce0366",
+                    "name": "CTA - Keep Your Food Dollars Local",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/178bc1df1d2542f7b48e2fa0e37da131_CTA - Keep Your Food Dollars Local.png",
+                    "alt_text": "CTA - Keep Your Food Dollars Local",
+                    "order": 7
+                },
+                {
+                    "image_id": "d31e42da-4bd9-4bf6-af3f-c73e30613e48",
+                    "name": "CTA - Metro Atlanta’s Online Farmers Market",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a3a37328fd02453c910ebd484313514a_CTA - Metro Atlanta’s Online Farmers Market.png",
+                    "alt_text": "CTA - Metro Atlanta’s Online Farmers Market",
+                    "order": 8
+                },
+                {
+                    "image_id": "ae3d108e-87be-4db9-992c-41a9f5b675e4",
+                    "name": "CTA - Organic Groceries Fair Prices",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4da28ae811354229a206daf54717f09d_CTA - Organic Groceries Fair Prices.png",
+                    "alt_text": "CTA - Organic Groceries Fair Prices",
+                    "order": 9
+                },
+                {
+                    "image_id": "a5d9a4e1-a9d7-4f19-baa2-1b7b75bdc4c1",
+                    "name": "CTA - Prefer Big Grocery Chains_ Keep Walking",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2e30307555e4491abc34a6d328d047bd_CTA - Prefer Big Grocery Chains_ Keep Walking.png",
+                    "alt_text": "CTA - Prefer Big Grocery Chains_ Keep Walking",
+                    "order": 10
+                },
+                {
+                    "image_id": "6cc6bce4-7217-4d46-8479-4b294c6e5648",
+                    "name": "CTA - Seasonal Eating Made Easy",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b3ab7597a8b74f658827dce98b429969_CTA - Seasonal Eating Made Easy.png",
+                    "alt_text": "CTA - Seasonal Eating Made Easy",
+                    "order": 11
+                },
+                {
+                    "image_id": "4d5db903-890f-40e2-bcf0-fe7520128d30",
+                    "name": "CTA - Skip The Grocery Store",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4266f7d4da77482c8cda4463c29fc1f8_CTA - Skip The Grocery Store.png",
+                    "alt_text": "CTA - Skip The Grocery Store",
+                    "order": 12
+                },
+                {
+                    "image_id": "bf22c6d1-0abf-4287-bc1d-61801541853b",
+                    "name": "CTA - Visit Our Booth for 50 Off",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/8a72cec3e2f14cfeaa75df34e8c982ab_CTA - Visit Our Booth for 50 Off.png",
+                    "alt_text": "CTA - Visit Our Booth for 50 Off",
+                    "order": 13
+                },
+                {
+                    "image_id": "e8b78f29-5de9-4b40-8022-661fde4b3e9b",
+                    "name": "CTA - We Support Georgia Farms You Can Too",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2a883a20c00546c0b6b2036a80571f93_CTA - We Support Georgia Farms You Can Too.png",
+                    "alt_text": "CTA - We Support Georgia Farms You Can Too",
+                    "order": 14
+                },
+                {
+                    "image_id": "a5ac3d04-7bcd-41ed-a7cd-7c044fcc7c46",
+                    "name": "CTA - Win a Free Month of Groceries!",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5e8f2d5309314980b5f05dc37e22c56c_CTA - Win a Free Month of Groceries!.png",
+                    "alt_text": "CTA - Win a Free Month of Groceries!",
+                    "order": 15
+                }
+            ],
+            "images": [
+                {
+                    "image_id": "5f698606-93ff-4c62-bfae-7b3a2fecb262",
+                    "name": "CTA - 80 Sourced Within 70 Miles",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ed304a921dcd4bae82d457b446c952dd_CTA - 80 Sourced Within 70 Miles.png",
+                    "alt_text": "CTA - 80 Sourced Within 70 Miles",
+                    "order": 0
+                },
+                {
+                    "image_id": "80c971d1-ad86-490c-b211-43479dabfb23",
+                    "name": "CTA - Do you know where your food comes from",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/590f5ccbe0d349e6856b5c643090c7d0_CTA - Do you know where your food comes from.png",
+                    "alt_text": "CTA - Do you know where your food comes from",
+                    "order": 1
+                },
+                {
+                    "image_id": "dd9fc9e0-04fc-4a02-ba37-8a35782c3d46",
+                    "name": "CTA - Eat Local Eat Organic Eat Better",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/68b10d38ed154ee99b02a49580bf335d_CTA - Eat Local Eat Organic Eat Better.png",
+                    "alt_text": "CTA - Eat Local Eat Organic Eat Better",
+                    "order": 2
+                },
+                {
+                    "image_id": "5d65d207-857b-45ec-be92-1531fe9d8d43",
+                    "name": "CTA - Georgia Farms Delivered",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4a8e569a34ab4d17942283da48375e94_CTA - Georgia Farms Delivered.png",
+                    "alt_text": "CTA - Georgia Farms Delivered",
+                    "order": 3
+                },
+                {
+                    "image_id": "e5b7d588-e1e5-40c4-b588-7abd19ae18a7",
+                    "name": "CTA - Good Food For Every Table",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/60a3eae51e65466cb629ecb57290bfa8_CTA - Good Food For Every Table.png",
+                    "alt_text": "CTA - Good Food For Every Table",
+                    "order": 4
+                },
+                {
+                    "image_id": "d5f027d3-462f-475d-bb37-c6423a26b30a",
+                    "name": "CTA - Good for People and the Planet",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                    "alt_text": "CTA - Good for People and the Planet",
+                    "order": 5
+                },
+                {
+                    "image_id": "76a63fef-9a13-4c55-aae4-a3f248fd31ff",
+                    "name": "CTA - Guess the Price of Our Box to Win!",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7f03ac7c5305403d9cb9ba83c90be7cf_CTA - Guess the Price of Our Box to Win!.png",
+                    "alt_text": "CTA - Guess the Price of Our Box to Win!",
+                    "order": 6
+                },
+                {
+                    "image_id": "078d1087-fcb0-442a-bcfa-d46c12ce0366",
+                    "name": "CTA - Keep Your Food Dollars Local",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/178bc1df1d2542f7b48e2fa0e37da131_CTA - Keep Your Food Dollars Local.png",
+                    "alt_text": "CTA - Keep Your Food Dollars Local",
+                    "order": 7
+                },
+                {
+                    "image_id": "d31e42da-4bd9-4bf6-af3f-c73e30613e48",
+                    "name": "CTA - Metro Atlanta’s Online Farmers Market",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/a3a37328fd02453c910ebd484313514a_CTA - Metro Atlanta’s Online Farmers Market.png",
+                    "alt_text": "CTA - Metro Atlanta’s Online Farmers Market",
+                    "order": 8
+                },
+                {
+                    "image_id": "ae3d108e-87be-4db9-992c-41a9f5b675e4",
+                    "name": "CTA - Organic Groceries Fair Prices",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4da28ae811354229a206daf54717f09d_CTA - Organic Groceries Fair Prices.png",
+                    "alt_text": "CTA - Organic Groceries Fair Prices",
+                    "order": 9
+                },
+                {
+                    "image_id": "a5d9a4e1-a9d7-4f19-baa2-1b7b75bdc4c1",
+                    "name": "CTA - Prefer Big Grocery Chains_ Keep Walking",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2e30307555e4491abc34a6d328d047bd_CTA - Prefer Big Grocery Chains_ Keep Walking.png",
+                    "alt_text": "CTA - Prefer Big Grocery Chains_ Keep Walking",
+                    "order": 10
+                },
+                {
+                    "image_id": "6cc6bce4-7217-4d46-8479-4b294c6e5648",
+                    "name": "CTA - Seasonal Eating Made Easy",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b3ab7597a8b74f658827dce98b429969_CTA - Seasonal Eating Made Easy.png",
+                    "alt_text": "CTA - Seasonal Eating Made Easy",
+                    "order": 11
+                },
+                {
+                    "image_id": "4d5db903-890f-40e2-bcf0-fe7520128d30",
+                    "name": "CTA - Skip The Grocery Store",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4266f7d4da77482c8cda4463c29fc1f8_CTA - Skip The Grocery Store.png",
+                    "alt_text": "CTA - Skip The Grocery Store",
+                    "order": 12
+                },
+                {
+                    "image_id": "bf22c6d1-0abf-4287-bc1d-61801541853b",
+                    "name": "CTA - Visit Our Booth for 50 Off",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/8a72cec3e2f14cfeaa75df34e8c982ab_CTA - Visit Our Booth for 50 Off.png",
+                    "alt_text": "CTA - Visit Our Booth for 50 Off",
+                    "order": 13
+                },
+                {
+                    "image_id": "e8b78f29-5de9-4b40-8022-661fde4b3e9b",
+                    "name": "CTA - We Support Georgia Farms You Can Too",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/2a883a20c00546c0b6b2036a80571f93_CTA - We Support Georgia Farms You Can Too.png",
+                    "alt_text": "CTA - We Support Georgia Farms You Can Too",
+                    "order": 14
+                },
+                {
+                    "image_id": "a5ac3d04-7bcd-41ed-a7cd-7c044fcc7c46",
+                    "name": "CTA - Win a Free Month of Groceries!",
+                    "url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5e8f2d5309314980b5f05dc37e22c56c_CTA - Win a Free Month of Groceries!.png",
+                    "alt_text": "CTA - Win a Free Month of Groceries!",
+                    "order": 15
+                }
+            ]
+        }
+    ],
+    "categories": [],
+    "toggle_shuffle": false,
+    "design_constraints": [
+        {
+            "id": "d6362717-4da9-478f-b253-1df89d89a7df",
+            "name": "Do you know where your food comes from",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "b3d941ac-805d-4ddf-8fe4-e02662ca1bb2"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "65ade8ca-16b9-42c3-bc61-eba4e1ee745f"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "80c971d1-ad86-490c-b211-43479dabfb23"
+                }
+            ],
+            "created_at": 1786087473820
+        },
+        {
+            "id": "56eb1ce0-4289-4d4f-9f62-8f7818e6b114",
+            "name": "Sub-Header - Do you know where your food comes from vs CTA - Do you know where your food comes from",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "65ade8ca-16b9-42c3-bc61-eba4e1ee745f"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "80c971d1-ad86-490c-b211-43479dabfb23"
+                }
+            ],
+            "created_at": 1786089504095
+        },
+        {
+            "id": "5af1b9be-7a1a-4195-8a3e-29d6d2f0ab44",
+            "name": "HEADLINE - Eat Local Eat Organic Eat Better vs Sub-Header - Eat Local Eat Organic Eat Better, CTA - Eat Local Eat Organic Eat Better",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "2124940c-3870-4111-9b86-084a8f1ca547"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "4c0b9228-a45f-4507-95c0-77317f97ef13"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "dd9fc9e0-04fc-4a02-ba37-8a35782c3d46"
+                }
+            ],
+            "created_at": 1786089528100
+        },
+        {
+            "id": "327a9b3a-7cb4-4a0e-9ad0-f5492d21f243",
+            "name": "Sub-Header - Eat Local Eat Organic Eat Better vs CTA - Eat Local Eat Organic Eat Better",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "4c0b9228-a45f-4507-95c0-77317f97ef13"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "dd9fc9e0-04fc-4a02-ba37-8a35782c3d46"
+                }
+            ],
+            "created_at": 1786089549559
+        },
+        {
+            "id": "5868834f-d0a6-4b09-8272-2cdae22d692b",
+            "name": "HEADLINE - Georgia Farms Delivered vs Sub-Header - Georgia Farms Delivered, CTA - Georgia Farms Delivered",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "d696d7de-e5d3-4092-bf9e-cd28a44ad927"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "2ba8af69-d0c0-46ce-b09e-6412999d4a97"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "5d65d207-857b-45ec-be92-1531fe9d8d43"
+                }
+            ],
+            "created_at": 1786089576065
+        },
+        {
+            "id": "44194f0f-3ae6-4865-be50-66bcd3edbdd3",
+            "name": "Sub-Header - Georgia Farms Delivered vs CTA - Georgia Farms Delivered",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "2ba8af69-d0c0-46ce-b09e-6412999d4a97"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "5d65d207-857b-45ec-be92-1531fe9d8d43"
+                }
+            ],
+            "created_at": 1786090608972
+        },
+        {
+            "id": "6fed0ec2-bdfc-4081-8253-215cbb33bff1",
+            "name": "HEADLINE - Good Food For Every Table vs Sub-Header - Good Food For Every Table, CTA - Good Food For Every Table",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "f10ed124-c03b-403c-80a0-fd10d6539741"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "b568a29e-8d73-4c37-9f81-6fa3075cabb9"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "e5b7d588-e1e5-40c4-b588-7abd19ae18a7"
+                }
+            ],
+            "created_at": 1786090653146
+        },
+        {
+            "id": "9d4517ac-7ad6-4b8a-9049-de38ebb5a758",
+            "name": "Sub-Header - Good Food For Every Table vs CTA - Good Food For Every Table",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "b568a29e-8d73-4c37-9f81-6fa3075cabb9"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "e5b7d588-e1e5-40c4-b588-7abd19ae18a7"
+                }
+            ],
+            "created_at": 1786090668132
+        },
+        {
+            "id": "4de347ca-38d7-4733-bd76-0d7af78a00a8",
+            "name": "HEADLINE - Good for People and the Planet vs Sub-Header - Good for People and the Planet, CTA - Good for People and the Planet",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "38f4f257-7832-405f-954f-b174306677b0"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "e1d5680e-ec05-4788-9346-0c964175d6ea"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "d5f027d3-462f-475d-bb37-c6423a26b30a"
+                }
+            ],
+            "created_at": 1786090684445
+        },
+        {
+            "id": "2a432d3f-4ca1-4d22-914c-c4e72b6cf21b",
+            "name": "Sub-Header - Good for People and the Planet vs CTA - Good for People and the Planet",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "e1d5680e-ec05-4788-9346-0c964175d6ea"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "d5f027d3-462f-475d-bb37-c6423a26b30a"
+                }
+            ],
+            "created_at": 1786090730133
+        },
+        {
+            "id": "918da4eb-cb04-4a2a-869a-9ae4cf4dc5e7",
+            "name": "HEADLINE - Guess the Price of Our Box to Win vs Sub-Header - Guess the Price of Our Box to Win!, CTA - Guess the Price of Our Box to Win!",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "05d9a025-1da6-4419-bf34-b017e6b4d573"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "562d5b74-bda4-488f-af04-269f3a60003c"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "76a63fef-9a13-4c55-aae4-a3f248fd31ff"
+                }
+            ],
+            "created_at": 1786090746211
+        },
+        {
+            "id": "f5faf64f-6deb-40f9-abf8-877a7614593b",
+            "name": "Sub-Header - Guess the Price of Our Box to Win! vs CTA - Guess the Price of Our Box to Win!",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "562d5b74-bda4-488f-af04-269f3a60003c"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "76a63fef-9a13-4c55-aae4-a3f248fd31ff"
+                }
+            ],
+            "created_at": 1786090758281
+        },
+        {
+            "id": "ab25bc13-bfaf-447c-a7a0-01190abf791c",
+            "name": "HEADLINE - Keep Your Food Dollars Local vs Sub-Header - Keep Your Food Dollars Local, CTA - Keep Your Food Dollars Local",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "c13e5e72-80c9-453f-9f75-5420e143b5e0"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "0231ee1f-b427-46de-a610-25b0c1c5eb6a"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "078d1087-fcb0-442a-bcfa-d46c12ce0366"
+                }
+            ],
+            "created_at": 1786090778298
+        },
+        {
+            "id": "97993c6f-b369-4317-9f9f-f0bd97d7ee6a",
+            "name": "Sub-Header - Keep Your Food Dollars Local vs CTA - Keep Your Food Dollars Local",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "0231ee1f-b427-46de-a610-25b0c1c5eb6a"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "078d1087-fcb0-442a-bcfa-d46c12ce0366"
+                }
+            ],
+            "created_at": 1786090821489
+        },
+        {
+            "id": "43d7392a-bcb3-4e33-afb1-6ac76737147d",
+            "name": "HEADLINE - Metro Atlanta’s Online Farmers Market vs Sub-Header - Metro Atlanta’s Online Farmers Market, CTA - Metro Atlanta’s Online Farmers Market",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "fb10d148-4119-4288-b1c3-b6a80c672a25"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "ea76e9e8-abb6-4da3-95ec-3fcf078816e9"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "d31e42da-4bd9-4bf6-af3f-c73e30613e48"
+                }
+            ],
+            "created_at": 1786090835806
+        },
+        {
+            "id": "63ee9af0-e5b0-4182-bb8f-ddee2a2dd00e",
+            "name": "Sub-Header - Metro Atlanta’s Online Farmers Market vs CTA - Metro Atlanta’s Online Farmers Market",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "ea76e9e8-abb6-4da3-95ec-3fcf078816e9"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "d31e42da-4bd9-4bf6-af3f-c73e30613e48"
+                }
+            ],
+            "created_at": 1786090878880
+        },
+        {
+            "id": "a1f98eb5-bff0-4648-82bf-d51c891fee3a",
+            "name": "HEADLINE - Organic Groceries Fair Prices vs Sub-Header - Organic Groceries Fair Prices, CTA - Organic Groceries Fair Prices",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "c375ed01-3ef8-4d61-ac39-ca2d00c8e564"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "e6daa9de-eff8-4493-8866-c73763a1b46c"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "ae3d108e-87be-4db9-992c-41a9f5b675e4"
+                }
+            ],
+            "created_at": 1786090895447
+        },
+        {
+            "id": "eb928e3f-78a2-465a-ac3f-ab902a40625d",
+            "name": "Sub-Header - Organic Groceries Fair Prices vs CTA - Organic Groceries Fair Prices",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "e6daa9de-eff8-4493-8866-c73763a1b46c"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "ae3d108e-87be-4db9-992c-41a9f5b675e4"
+                }
+            ],
+            "created_at": 1786090905473
+        },
+        {
+            "id": "ddb7a245-fe80-4562-aa0f-6b414b0e95c2",
+            "name": "HEADLINE - Prefer Big Grocery Chains Keep Walking vs Sub-Header - Prefer Big Grocery Chains_ Keep Walking, CTA - Prefer Big Grocery Chains_ Keep Walking",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "1357f726-ac3b-404c-80eb-b403443b771d"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "3337cd8f-dd3e-4e82-8fb0-81c0fe89e3a6"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "a5d9a4e1-a9d7-4f19-baa2-1b7b75bdc4c1"
+                }
+            ],
+            "created_at": 1786090919542
+        },
+        {
+            "id": "bd9f1863-e077-4378-96da-386bbcea472f",
+            "name": "Sub-Header - Prefer Big Grocery Chains_ Keep Walking vs CTA - Prefer Big Grocery Chains_ Keep Walking",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "3337cd8f-dd3e-4e82-8fb0-81c0fe89e3a6"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "a5d9a4e1-a9d7-4f19-baa2-1b7b75bdc4c1"
+                }
+            ],
+            "created_at": 1786090930358
+        },
+        {
+            "id": "7ba6e12d-a479-4692-a094-dab0167dc3a2",
+            "name": "HEADLINE - Seasonal Eating Made Easy vs Sub-Header - Seasonal Eating Made Easy, CTA - Seasonal Eating Made Easy",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "8f1d6cd6-4914-49db-8291-07e6f49290c2"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "9db8ce76-8c7b-44db-98cc-9cbfb64d896b"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "6cc6bce4-7217-4d46-8479-4b294c6e5648"
+                }
+            ],
+            "created_at": 1786090948546
+        },
+        {
+            "id": "7bf53572-5911-4561-a51e-aca8846a1672",
+            "name": "Sub-Header - Seasonal Eating Made Easy vs CTA - Seasonal Eating Made Easy",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "9db8ce76-8c7b-44db-98cc-9cbfb64d896b"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "6cc6bce4-7217-4d46-8479-4b294c6e5648"
+                }
+            ],
+            "created_at": 1786090963049
+        },
+        {
+            "id": "2143f34a-46d8-452d-8485-665d3f1f370f",
+            "name": "HEADLINE - Skip The Grocery Store vs Sub-Header - Skip The Grocery Store, CTA - Skip The Grocery Store",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "2a036504-b383-4e7e-a3e9-6591bdc48af1"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "ef035786-bca8-4827-ad08-afdd3a4dc77b"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "4d5db903-890f-40e2-bcf0-fe7520128d30"
+                }
+            ],
+            "created_at": 1786090979161
+        },
+        {
+            "id": "3129a24b-603f-40a0-8073-9c170ccbe5a6",
+            "name": "Sub-Header - Skip The Grocery Store vs CTA - Skip The Grocery Store",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "ef035786-bca8-4827-ad08-afdd3a4dc77b"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "4d5db903-890f-40e2-bcf0-fe7520128d30"
+                }
+            ],
+            "created_at": 1786090993628
+        },
+        {
+            "id": "1d74bbe6-467b-4065-9357-d35cac5f0242",
+            "name": "HEADLINE - We Support Georgia Farms You Can Too vs Sub-Header - We Support Georgia Farms You Can Too, CTA - We Support Georgia Farms You Can Too",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "b2338102-0cda-4728-87a7-2f16b0284a48"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "e4151cab-26ae-4bd4-bf1e-1ea4f15c5b52"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "e8b78f29-5de9-4b40-8022-661fde4b3e9b"
+                }
+            ],
+            "created_at": 1786118299653
+        },
+        {
+            "id": "bf4a5986-136a-4c65-8d7c-20c4bacc6daa",
+            "name": "Sub-Header - We Support Georgia Farms You Can Too vs CTA - We Support Georgia Farms You Can Too",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "e4151cab-26ae-4bd4-bf1e-1ea4f15c5b52"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "e8b78f29-5de9-4b40-8022-661fde4b3e9b"
+                }
+            ],
+            "created_at": 1786118313423
+        },
+        {
+            "id": "f495264e-5903-4e5b-8f93-a5a197938a80",
+            "name": "HEADLINE - Win a Free Month of Groceries vs Sub-Header - Win a Free Month of Groceries!, CTA - Win a Free Month of Groceries!",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "23b86f75-5cef-474f-82ca-3b47d2b09b7d"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "b39bef94-eb9f-4bbf-860e-6b23ca400dec"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "a5ac3d04-7bcd-41ed-a7cd-7c044fcc7c46"
+                }
+            ],
+            "created_at": 1786118337513
+        },
+        {
+            "id": "8972d04f-f9a9-45c0-9a4f-ba48d38767ad",
+            "name": "Sub-Header - Win a Free Month of Groceries! vs CTA - Win a Free Month of Groceries!",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "b39bef94-eb9f-4bbf-860e-6b23ca400dec"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "a5ac3d04-7bcd-41ed-a7cd-7c044fcc7c46"
+                }
+            ],
+            "created_at": 1786118359262
+        },
+        {
+            "id": "f772ebf8-d4ae-45a4-ad4f-ff2548ed7b12",
+            "name": "HEADLINE - 80 Sourced Within 70 Miles vs Sub-Header - 80 Sourced Within 70 Miles, CTA - 80 Sourced Within 70 Miles",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "35ebb7c1-8d86-4901-98b4-a363a41bf8de"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "372e8eed-c22a-4b8f-b9a3-c6f25fda5129"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "5f698606-93ff-4c62-bfae-7b3a2fecb262"
+                }
+            ],
+            "created_at": 1786118381074
+        },
+        {
+            "id": "6f7ca437-35ec-41f9-ba36-a5c51a91d8bd",
+            "name": "Sub-Header - 80 Sourced Within 70 Miles vs CTA - 80 Sourced Within 70 Miles",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "372e8eed-c22a-4b8f-b9a3-c6f25fda5129"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "5f698606-93ff-4c62-bfae-7b3a2fecb262"
+                }
+            ],
+            "created_at": 1786118391773
+        },
+        {
+            "id": "74abfa0d-747f-41e0-bea1-e0e44249fa66",
+            "name": "HEADLINE - Visit Our Booth for 50 Off vs Sub-Header - Visit Our Booth for 50 Off, CTA - Visit Our Booth for 50 Off",
+            "anchors": [
+                {
+                    "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                    "image_id": "8b6aec9f-d328-4051-b27b-4be66d2f4371"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "6df098fe-0ed0-45b1-8b7b-bb7bff4d8c77"
+                },
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "bf22c6d1-0abf-4287-bc1d-61801541853b"
+                }
+            ],
+            "created_at": 1786118410941
+        },
+        {
+            "id": "9fd7c4cc-77f7-4bd7-9297-1390aedf964e",
+            "name": "Sub-Header - Visit Our Booth for 50 Off vs CTA - Visit Our Booth for 50 Off",
+            "anchors": [
+                {
+                    "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                    "image_id": "6df098fe-0ed0-45b1-8b7b-bb7bff4d8c77"
+                }
+            ],
+            "blocked": [
+                {
+                    "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                    "image_id": "bf22c6d1-0abf-4287-bc1d-61801541853b"
+                }
+            ],
+            "created_at": 1786118426132
+        }
+    ]
+}

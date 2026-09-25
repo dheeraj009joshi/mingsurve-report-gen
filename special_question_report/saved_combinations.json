@@ -1,0 +1,1857 @@
+[
+    {
+        "id": "eb0d9ef5-75a5-40b0-a9ff-44a5ee988405",
+        "study_id": "777f71e7-0104-42d7-abcc-ba329b8f8a39",
+        "name": "Female · 18-24 · 25-34 · Atlanta, ITP · $75000 or more",
+        "position": 0,
+        "created_at": "2026-09-24T17:30:26.567659Z",
+        "updated_at": "2026-09-24T17:30:26.567659Z",
+        "items": [
+            {
+                "id": "8bde87b0-4a7a-4a34-8132-5d716eb903c2",
+                "saved_design_id": "be46f0e7-cfdb-4091-b29e-17c1d62f84dc",
+                "name": "#1 Top",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Top Down",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 45.0,
+                "position": 1,
+                "configuration": {
+                    "metric": "Top Down",
+                    "segment": {
+                        "id": "(T) Overall",
+                        "label": "Overall",
+                        "section_key": "(T) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cream",
+                            "name": "Background Layer Cream",
+                            "value": 6,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/de6aa46bc10441b0be5786cd70315532_Background Layer Cream.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "f1fe0fde-6b96-41b8-972b-9d80e3bf5d9e",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/de6aa46bc10441b0be5786cd70315532_Background Layer Cream.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Georgia Farms Delivered",
+                            "name": "HEADLINE - Georgia Farms Delivered",
+                            "value": 12,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/10abdc0e59894f519484d423bb3bc072_HEADLINE - Georgia Farms Delivered.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "d696d7de-e5d3-4092-bf9e-cd28a44ad927",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/10abdc0e59894f519484d423bb3bc072_HEADLINE - Georgia Farms Delivered.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Skip The Grocery Store",
+                            "name": "Sub-Header - Skip The Grocery Store",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/efd73edefdaf4652977a544a6035bde7_Sub-Header - Skip The Grocery Store.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "ef035786-bca8-4827-ad08-afdd3a4dc77b",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/efd73edefdaf4652977a544a6035bde7_Sub-Header - Skip The Grocery Store.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Delivery Graphic",
+                            "name": "Image Layer_ Delivery Graphic",
+                            "value": 18,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ffa714ce0fb24fab836a6de8dcfe592d_Image Layer_ Delivery Graphic.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "b80cb7e2-9dfb-4839-b436-8c305ebe6c34",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ffa714ce0fb24fab836a6de8dcfe592d_Image Layer_ Delivery Graphic.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Good for People and the Planet",
+                            "name": "CTA - Good for People and the Planet",
+                            "value": 8,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "d5f027d3-462f-475d-bb37-c6423a26b30a",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 45.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Good for People and the Planet",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Delivery Graphic",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Georgia Farms Delivered",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cream",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Skip The Grocery Store"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "b2af5b5c-8ff7-483d-856c-dc70e11ad9d9",
+                "saved_design_id": "fd688ea0-4d14-494f-ab72-1d939f590622",
+                "name": "#2 Top",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Top Down",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 45.0,
+                "position": 2,
+                "configuration": {
+                    "metric": "Top Down",
+                    "segment": {
+                        "id": "(T) Overall",
+                        "label": "Overall",
+                        "section_key": "(T) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cream",
+                            "name": "Background Layer Cream",
+                            "value": 6,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/de6aa46bc10441b0be5786cd70315532_Background Layer Cream.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "f1fe0fde-6b96-41b8-972b-9d80e3bf5d9e",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/de6aa46bc10441b0be5786cd70315532_Background Layer Cream.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Georgia Farms Delivered",
+                            "name": "HEADLINE - Georgia Farms Delivered",
+                            "value": 12,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/10abdc0e59894f519484d423bb3bc072_HEADLINE - Georgia Farms Delivered.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "d696d7de-e5d3-4092-bf9e-cd28a44ad927",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/10abdc0e59894f519484d423bb3bc072_HEADLINE - Georgia Farms Delivered.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Skip The Grocery Store",
+                            "name": "Sub-Header - Skip The Grocery Store",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/efd73edefdaf4652977a544a6035bde7_Sub-Header - Skip The Grocery Store.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "ef035786-bca8-4827-ad08-afdd3a4dc77b",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/efd73edefdaf4652977a544a6035bde7_Sub-Header - Skip The Grocery Store.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Produce",
+                            "name": "Image Layer_ Produce",
+                            "value": 18,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "17a392b1-174e-4ffa-be04-c21fad507f88",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Good for People and the Planet",
+                            "name": "CTA - Good for People and the Planet",
+                            "value": 8,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "d5f027d3-462f-475d-bb37-c6423a26b30a",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 45.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Good for People and the Planet",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Produce",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Georgia Farms Delivered",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cream",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Skip The Grocery Store"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "047409a8-7680-41a2-8ba0-7148f0453b67",
+                "saved_design_id": "eac94d3a-c1df-4b20-8584-ecb7bf194813",
+                "name": "#3 Top",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Top Down",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 45.0,
+                "position": 3,
+                "configuration": {
+                    "metric": "Top Down",
+                    "segment": {
+                        "id": "(T) Overall",
+                        "label": "Overall",
+                        "section_key": "(T) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Melon",
+                            "name": "Background Layer Melon",
+                            "value": 6,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/25be18f58ae048bbaad8ff9c04909cb9_Background Layer Melon.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "f48fd376-f9e8-4e22-901b-72a792c5df64",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/25be18f58ae048bbaad8ff9c04909cb9_Background Layer Melon.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Georgia Farms Delivered",
+                            "name": "HEADLINE - Georgia Farms Delivered",
+                            "value": 12,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/10abdc0e59894f519484d423bb3bc072_HEADLINE - Georgia Farms Delivered.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "d696d7de-e5d3-4092-bf9e-cd28a44ad927",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/10abdc0e59894f519484d423bb3bc072_HEADLINE - Georgia Farms Delivered.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Skip The Grocery Store",
+                            "name": "Sub-Header - Skip The Grocery Store",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/efd73edefdaf4652977a544a6035bde7_Sub-Header - Skip The Grocery Store.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "ef035786-bca8-4827-ad08-afdd3a4dc77b",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/efd73edefdaf4652977a544a6035bde7_Sub-Header - Skip The Grocery Store.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Delivery Graphic",
+                            "name": "Image Layer_ Delivery Graphic",
+                            "value": 18,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ffa714ce0fb24fab836a6de8dcfe592d_Image Layer_ Delivery Graphic.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "b80cb7e2-9dfb-4839-b436-8c305ebe6c34",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/ffa714ce0fb24fab836a6de8dcfe592d_Image Layer_ Delivery Graphic.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Good for People and the Planet",
+                            "name": "CTA - Good for People and the Planet",
+                            "value": 8,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "d5f027d3-462f-475d-bb37-c6423a26b30a",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 45.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Good for People and the Planet",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Delivery Graphic",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Georgia Farms Delivered",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Melon",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Skip The Grocery Store"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "f0e72275-0a0e-47c5-afbd-a64d809dc32a",
+                "saved_design_id": "d408068c-4d95-48b1-beee-f45b5d0e9099",
+                "name": "#1 Bottom",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Bottom Up",
+                "segment_label": "Overall",
+                "selection_count": 3,
+                "total_coefficient": 20.0,
+                "position": 4,
+                "configuration": {
+                    "metric": "Bottom Up",
+                    "segment": {
+                        "id": "(B) Overall",
+                        "label": "Overall",
+                        "section_key": "(B) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Win a Free Month of Groceries!",
+                            "name": "Sub-Header - Win a Free Month of Groceries!",
+                            "value": 8,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/92bc82a83a7a431f816cafb397ea9f6b_Sub-Header - Win a Free Month of Groceries!.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "b39bef94-eb9f-4bbf-860e-6b23ca400dec",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/92bc82a83a7a431f816cafb397ea9f6b_Sub-Header - Win a Free Month of Groceries!.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                            "name": "Image Layer_ Box",
+                            "value": 2,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "6cab32cf-41d4-428b-ac04-fc12c169c9ca",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Eat Local Eat Organic Eat Better",
+                            "name": "CTA - Eat Local Eat Organic Eat Better",
+                            "value": 10,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/68b10d38ed154ee99b02a49580bf335d_CTA - Eat Local Eat Organic Eat Better.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "dd9fc9e0-04fc-4a02-ba37-8a35782c3d46",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/68b10d38ed154ee99b02a49580bf335d_CTA - Eat Local Eat Organic Eat Better.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 20.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Eat Local Eat Organic Eat Better",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Win a Free Month of Groceries!"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "aa938341-157c-47c6-a8af-48c6a39ac4e4",
+                "saved_design_id": "51d49625-4ada-49d4-8eb4-4c7913411702",
+                "name": "#2 Bottom",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Bottom Up",
+                "segment_label": "Overall",
+                "selection_count": 4,
+                "total_coefficient": 19.0,
+                "position": 5,
+                "configuration": {
+                    "metric": "Bottom Up",
+                    "segment": {
+                        "id": "(B) Overall",
+                        "label": "Overall",
+                        "section_key": "(B) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Lemon",
+                            "name": "Background Layer Lemon",
+                            "value": -1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9c2f80fc64214b3da863a9158bff4c32_Background Layer Lemon.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "62971151-3579-4c79-87e3-e347d69f0684",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9c2f80fc64214b3da863a9158bff4c32_Background Layer Lemon.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Win a Free Month of Groceries!",
+                            "name": "Sub-Header - Win a Free Month of Groceries!",
+                            "value": 8,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/92bc82a83a7a431f816cafb397ea9f6b_Sub-Header - Win a Free Month of Groceries!.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "b39bef94-eb9f-4bbf-860e-6b23ca400dec",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/92bc82a83a7a431f816cafb397ea9f6b_Sub-Header - Win a Free Month of Groceries!.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                            "name": "Image Layer_ Box",
+                            "value": 2,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "6cab32cf-41d4-428b-ac04-fc12c169c9ca",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Eat Local Eat Organic Eat Better",
+                            "name": "CTA - Eat Local Eat Organic Eat Better",
+                            "value": 10,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/68b10d38ed154ee99b02a49580bf335d_CTA - Eat Local Eat Organic Eat Better.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "dd9fc9e0-04fc-4a02-ba37-8a35782c3d46",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/68b10d38ed154ee99b02a49580bf335d_CTA - Eat Local Eat Organic Eat Better.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 19.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Eat Local Eat Organic Eat Better",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Lemon",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Win a Free Month of Groceries!"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "5cccdff6-ebeb-4e0f-91d3-e7a62c849fa7",
+                "saved_design_id": "151130b0-5417-40ad-b189-35189c7c54b9",
+                "name": "#3 Bottom",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Bottom Up",
+                "segment_label": "Overall",
+                "selection_count": 4,
+                "total_coefficient": 18.0,
+                "position": 6,
+                "configuration": {
+                    "metric": "Bottom Up",
+                    "segment": {
+                        "id": "(B) Overall",
+                        "label": "Overall",
+                        "section_key": "(B) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Good for People and the Planet",
+                            "name": "HEADLINE - Good for People and the Planet",
+                            "value": -2,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "38f4f257-7832-405f-954f-b174306677b0",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Win a Free Month of Groceries!",
+                            "name": "Sub-Header - Win a Free Month of Groceries!",
+                            "value": 8,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/92bc82a83a7a431f816cafb397ea9f6b_Sub-Header - Win a Free Month of Groceries!.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "b39bef94-eb9f-4bbf-860e-6b23ca400dec",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/92bc82a83a7a431f816cafb397ea9f6b_Sub-Header - Win a Free Month of Groceries!.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                            "name": "Image Layer_ Box",
+                            "value": 2,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "6cab32cf-41d4-428b-ac04-fc12c169c9ca",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Eat Local Eat Organic Eat Better",
+                            "name": "CTA - Eat Local Eat Organic Eat Better",
+                            "value": 10,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/68b10d38ed154ee99b02a49580bf335d_CTA - Eat Local Eat Organic Eat Better.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "dd9fc9e0-04fc-4a02-ba37-8a35782c3d46",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/68b10d38ed154ee99b02a49580bf335d_CTA - Eat Local Eat Organic Eat Better.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 18.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Eat Local Eat Organic Eat Better",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Good for People and the Planet",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Win a Free Month of Groceries!"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "7869fabb-0e29-4ef5-bce0-80c95c170b3d",
+                "saved_design_id": "03e000a6-8073-464b-b980-9030be59f9ad",
+                "name": "#1 Fastest",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Response Time",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 1.4272554201858403,
+                "position": 7,
+                "configuration": {
+                    "metric": "Response Time",
+                    "segment": {
+                        "id": "(R) Overall",
+                        "label": "Overall",
+                        "section_key": "(R) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Melon",
+                            "name": "Background Layer Melon",
+                            "value": 0.0036025388976744788,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/25be18f58ae048bbaad8ff9c04909cb9_Background Layer Melon.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "f48fd376-f9e8-4e22-901b-72a792c5df64",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/25be18f58ae048bbaad8ff9c04909cb9_Background Layer Melon.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Good for People and the Planet",
+                            "name": "HEADLINE - Good for People and the Planet",
+                            "value": 0.7057065068987884,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "38f4f257-7832-405f-954f-b174306677b0",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Georgia Farms Delivered",
+                            "name": "Sub-Header - Georgia Farms Delivered",
+                            "value": 0.31633741568196744,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c0f8df3f630643a38e14def7216f4ba7_Sub-Header - Georgia Farms Delivered.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "2ba8af69-d0c0-46ce-b09e-6412999d4a97",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c0f8df3f630643a38e14def7216f4ba7_Sub-Header - Georgia Farms Delivered.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Produce",
+                            "name": "Image Layer_ Produce",
+                            "value": 0.08517368447861594,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "17a392b1-174e-4ffa-be04-c21fad507f88",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Skip The Grocery Store",
+                            "name": "CTA - Skip The Grocery Store",
+                            "value": 0.316435274228794,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4266f7d4da77482c8cda4463c29fc1f8_CTA - Skip The Grocery Store.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "4d5db903-890f-40e2-bcf0-fe7520128d30",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4266f7d4da77482c8cda4463c29fc1f8_CTA - Skip The Grocery Store.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 1.4272554201858403,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Skip The Grocery Store",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Produce",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Good for People and the Planet",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Melon",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Georgia Farms Delivered"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "a084cc23-82ae-4fc0-9b0f-935eea7846e4",
+                "saved_design_id": "95933bb4-21f5-4668-a034-9747f561bc2c",
+                "name": "#2 Fastest",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Response Time",
+                "segment_label": "Overall",
+                "selection_count": 4,
+                "total_coefficient": 1.4236528812881657,
+                "position": 8,
+                "configuration": {
+                    "metric": "Response Time",
+                    "segment": {
+                        "id": "(R) Overall",
+                        "label": "Overall",
+                        "section_key": "(R) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Good for People and the Planet",
+                            "name": "HEADLINE - Good for People and the Planet",
+                            "value": 0.7057065068987884,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "38f4f257-7832-405f-954f-b174306677b0",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Georgia Farms Delivered",
+                            "name": "Sub-Header - Georgia Farms Delivered",
+                            "value": 0.31633741568196744,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c0f8df3f630643a38e14def7216f4ba7_Sub-Header - Georgia Farms Delivered.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "2ba8af69-d0c0-46ce-b09e-6412999d4a97",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c0f8df3f630643a38e14def7216f4ba7_Sub-Header - Georgia Farms Delivered.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Produce",
+                            "name": "Image Layer_ Produce",
+                            "value": 0.08517368447861594,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "17a392b1-174e-4ffa-be04-c21fad507f88",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Skip The Grocery Store",
+                            "name": "CTA - Skip The Grocery Store",
+                            "value": 0.316435274228794,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4266f7d4da77482c8cda4463c29fc1f8_CTA - Skip The Grocery Store.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "4d5db903-890f-40e2-bcf0-fe7520128d30",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4266f7d4da77482c8cda4463c29fc1f8_CTA - Skip The Grocery Store.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 1.4236528812881657,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Skip The Grocery Store",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Produce",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Good for People and the Planet",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Georgia Farms Delivered"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "451487b4-2bbc-4a73-ace9-d9912776b27b",
+                "saved_design_id": "0193d708-f2ce-4151-8088-1282f6255ba1",
+                "name": "#3 Fastest",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Response Time",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 1.420028980254283,
+                "position": 9,
+                "configuration": {
+                    "metric": "Response Time",
+                    "segment": {
+                        "id": "(R) Overall",
+                        "label": "Overall",
+                        "section_key": "(R) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cotton",
+                            "name": "Background Layer Cotton",
+                            "value": -0.003623901033882931,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "79e06c96-75c6-4a91-8f2c-f778a7269bb8",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Good for People and the Planet",
+                            "name": "HEADLINE - Good for People and the Planet",
+                            "value": 0.7057065068987884,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "38f4f257-7832-405f-954f-b174306677b0",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b6658930117d48aeb315b26ed8e9b76d_HEADLINE - Good for People and the Planet.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Georgia Farms Delivered",
+                            "name": "Sub-Header - Georgia Farms Delivered",
+                            "value": 0.31633741568196744,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c0f8df3f630643a38e14def7216f4ba7_Sub-Header - Georgia Farms Delivered.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "2ba8af69-d0c0-46ce-b09e-6412999d4a97",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/c0f8df3f630643a38e14def7216f4ba7_Sub-Header - Georgia Farms Delivered.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Produce",
+                            "name": "Image Layer_ Produce",
+                            "value": 0.08517368447861594,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "17a392b1-174e-4ffa-be04-c21fad507f88",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/994f80944e1c4774a43067ab4bb6dd18_Image Layer_ Produce.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Skip The Grocery Store",
+                            "name": "CTA - Skip The Grocery Store",
+                            "value": 0.316435274228794,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4266f7d4da77482c8cda4463c29fc1f8_CTA - Skip The Grocery Store.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "4d5db903-890f-40e2-bcf0-fe7520128d30",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4266f7d4da77482c8cda4463c29fc1f8_CTA - Skip The Grocery Store.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 1.420028980254283,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Skip The Grocery Store",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Produce",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Good for People and the Planet",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cotton",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Georgia Farms Delivered"
+                    },
+                    "show_layer_background": true
+                }
+            }
+        ]
+    },
+    {
+        "id": "3449cda4-1e29-4409-bc10-58dd7006abbc",
+        "study_id": "777f71e7-0104-42d7-abcc-ba329b8f8a39",
+        "name": "5 or more · Metro Atlanta, OTP",
+        "position": 1,
+        "created_at": "2026-09-24T17:40:15.835779Z",
+        "updated_at": "2026-09-24T17:40:15.835779Z",
+        "items": [
+            {
+                "id": "1eb65568-3d58-4ddb-8edd-609addc04acb",
+                "saved_design_id": "f1401a84-94ea-4bce-8376-f9c66f92bc6e",
+                "name": "#1 Top Combination",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Top Down",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 51.0,
+                "position": 1,
+                "configuration": {
+                    "metric": "Top Down",
+                    "segment": {
+                        "id": "(T) Overall",
+                        "label": "Overall",
+                        "section_key": "(T) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cotton",
+                            "name": "Background Layer Cotton",
+                            "value": 3,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "79e06c96-75c6-4a91-8f2c-f778a7269bb8",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Win a Free Month of Groceries",
+                            "name": "HEADLINE - Win a Free Month of Groceries",
+                            "value": 17,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/15dd55c8b9b543c9a4898433ef842985_HEADLINE - Win a Free Month of Groceries.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "23b86f75-5cef-474f-82ca-3b47d2b09b7d",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/15dd55c8b9b543c9a4898433ef842985_HEADLINE - Win a Free Month of Groceries.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - 80 Sourced Within 70 Miles",
+                            "name": "Sub-Header - 80 Sourced Within 70 Miles",
+                            "value": 10,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/35597bc751fc44acb1f8eeb72a3b1597_Sub-Header - 80 Sourced Within 70 Miles.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "372e8eed-c22a-4b8f-b9a3-c6f25fda5129",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/35597bc751fc44acb1f8eeb72a3b1597_Sub-Header - 80 Sourced Within 70 Miles.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                            "name": "Image Layer_ Box",
+                            "value": 9,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "6cab32cf-41d4-428b-ac04-fc12c169c9ca",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Guess the Price of Our Box to Win!",
+                            "name": "CTA - Guess the Price of Our Box to Win!",
+                            "value": 12,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7f03ac7c5305403d9cb9ba83c90be7cf_CTA - Guess the Price of Our Box to Win!.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "76a63fef-9a13-4c55-aae4-a3f248fd31ff",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7f03ac7c5305403d9cb9ba83c90be7cf_CTA - Guess the Price of Our Box to Win!.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 51.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Guess the Price of Our Box to Win!",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Win a Free Month of Groceries",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cotton",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - 80 Sourced Within 70 Miles"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "b05c5111-1249-4068-9bbb-f8bb8da701d8",
+                "saved_design_id": "734507cf-3f8f-4cb9-a629-4bd827c3bdb7",
+                "name": "#2 Top Combination",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Top Down",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 51.0,
+                "position": 2,
+                "configuration": {
+                    "metric": "Top Down",
+                    "segment": {
+                        "id": "(T) Overall",
+                        "label": "Overall",
+                        "section_key": "(T) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cotton",
+                            "name": "Background Layer Cotton",
+                            "value": 3,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "79e06c96-75c6-4a91-8f2c-f778a7269bb8",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Win a Free Month of Groceries",
+                            "name": "HEADLINE - Win a Free Month of Groceries",
+                            "value": 17,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/15dd55c8b9b543c9a4898433ef842985_HEADLINE - Win a Free Month of Groceries.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "23b86f75-5cef-474f-82ca-3b47d2b09b7d",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/15dd55c8b9b543c9a4898433ef842985_HEADLINE - Win a Free Month of Groceries.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Visit Our Booth for 50 Off",
+                            "name": "Sub-Header - Visit Our Booth for 50 Off",
+                            "value": 10,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/025a7ab91c524d2aac4c98b32c875b5c_Sub-Header - Visit Our Booth for 50 Off.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "6df098fe-0ed0-45b1-8b7b-bb7bff4d8c77",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/025a7ab91c524d2aac4c98b32c875b5c_Sub-Header - Visit Our Booth for 50 Off.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                            "name": "Image Layer_ Box",
+                            "value": 9,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "6cab32cf-41d4-428b-ac04-fc12c169c9ca",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Guess the Price of Our Box to Win!",
+                            "name": "CTA - Guess the Price of Our Box to Win!",
+                            "value": 12,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7f03ac7c5305403d9cb9ba83c90be7cf_CTA - Guess the Price of Our Box to Win!.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "76a63fef-9a13-4c55-aae4-a3f248fd31ff",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7f03ac7c5305403d9cb9ba83c90be7cf_CTA - Guess the Price of Our Box to Win!.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 51.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Guess the Price of Our Box to Win!",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Win a Free Month of Groceries",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cotton",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Visit Our Booth for 50 Off"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "17f9de0a-4800-4e9a-97ec-25f1c0ff54fa",
+                "saved_design_id": "16d95b48-50a9-4da3-8949-f9f8a15ffeb5",
+                "name": "#3 Top Combination",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Top Down",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 51.0,
+                "position": 3,
+                "configuration": {
+                    "metric": "Top Down",
+                    "segment": {
+                        "id": "(T) Overall",
+                        "label": "Overall",
+                        "section_key": "(T) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cotton",
+                            "name": "Background Layer Cotton",
+                            "value": 3,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "79e06c96-75c6-4a91-8f2c-f778a7269bb8",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/cf0458cc0ab0476cb32f56d0a74abdd2_Background Layer Cotton.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Visit Our Booth for 50 Off",
+                            "name": "HEADLINE - Visit Our Booth for 50 Off",
+                            "value": 17,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/44c9bf19590e46beb94ab6e93341c42a_HEADLINE - Visit Our Booth for 50 Off.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "8b6aec9f-d328-4051-b27b-4be66d2f4371",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/44c9bf19590e46beb94ab6e93341c42a_HEADLINE - Visit Our Booth for 50 Off.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - 80 Sourced Within 70 Miles",
+                            "name": "Sub-Header - 80 Sourced Within 70 Miles",
+                            "value": 10,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/35597bc751fc44acb1f8eeb72a3b1597_Sub-Header - 80 Sourced Within 70 Miles.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "372e8eed-c22a-4b8f-b9a3-c6f25fda5129",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/35597bc751fc44acb1f8eeb72a3b1597_Sub-Header - 80 Sourced Within 70 Miles.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                            "name": "Image Layer_ Box",
+                            "value": 9,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "6cab32cf-41d4-428b-ac04-fc12c169c9ca",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9f67cc39209d464b8109bff000d05d0a_Image Layer_ Box.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Guess the Price of Our Box to Win!",
+                            "name": "CTA - Guess the Price of Our Box to Win!",
+                            "value": 12,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7f03ac7c5305403d9cb9ba83c90be7cf_CTA - Guess the Price of Our Box to Win!.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "76a63fef-9a13-4c55-aae4-a3f248fd31ff",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7f03ac7c5305403d9cb9ba83c90be7cf_CTA - Guess the Price of Our Box to Win!.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 51.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Guess the Price of Our Box to Win!",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Box",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Visit Our Booth for 50 Off",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Cotton",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - 80 Sourced Within 70 Miles"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "f403873f-0a78-4a59-a8c2-60a9d36692a3",
+                "saved_design_id": "4824ce51-e8b3-4146-9a00-0f40c32fcbf2",
+                "name": "#1 Bottom Combination",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Bottom Up",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 15.0,
+                "position": 4,
+                "configuration": {
+                    "metric": "Bottom Up",
+                    "segment": {
+                        "id": "(B) Overall",
+                        "label": "Overall",
+                        "section_key": "(B) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Lemon",
+                            "name": "Background Layer Lemon",
+                            "value": 3,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9c2f80fc64214b3da863a9158bff4c32_Background Layer Lemon.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "62971151-3579-4c79-87e3-e347d69f0684",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9c2f80fc64214b3da863a9158bff4c32_Background Layer Lemon.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Do you know where your food comes from",
+                            "name": "HEADLINE - Do you know where your food comes from",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/12fa3992c048468b86dc7a865bdfeee2_HEADLINE - Do you know where your food comes from.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "b3d941ac-805d-4ddf-8fe4-e02662ca1bb2",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/12fa3992c048468b86dc7a865bdfeee2_HEADLINE - Do you know where your food comes from.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                            "name": "Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                            "value": 6,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5d4d1368be634adb83ccbdda0f838de7_Sub-Header - Prefer Big Grocery Chains_ Keep Walking.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "3337cd8f-dd3e-4e82-8fb0-81c0fe89e3a6",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5d4d1368be634adb83ccbdda0f838de7_Sub-Header - Prefer Big Grocery Chains_ Keep Walking.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Grocery",
+                            "name": "Image Layer_ Grocery",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b0fff0b00bb74254bd6575e5eccd104f_Image Layer_ Grocery.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "70dc077e-4567-4e15-87bd-65510af6fd61",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b0fff0b00bb74254bd6575e5eccd104f_Image Layer_ Grocery.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Georgia Farms Delivered",
+                            "name": "CTA - Georgia Farms Delivered",
+                            "value": 4,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4a8e569a34ab4d17942283da48375e94_CTA - Georgia Farms Delivered.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "5d65d207-857b-45ec-be92-1531fe9d8d43",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4a8e569a34ab4d17942283da48375e94_CTA - Georgia Farms Delivered.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 15.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Georgia Farms Delivered",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Grocery",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Do you know where your food comes from",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Lemon",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Prefer Big Grocery Chains_ Keep Walking"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "15212127-696e-4a8d-ba6d-07685eaa8396",
+                "saved_design_id": "66d0e9f5-6e50-4187-ab0b-1ba34c97d85c",
+                "name": "#2 Bottom Combination",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Bottom Up",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 15.0,
+                "position": 5,
+                "configuration": {
+                    "metric": "Bottom Up",
+                    "segment": {
+                        "id": "(B) Overall",
+                        "label": "Overall",
+                        "section_key": "(B) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Melon",
+                            "name": "Background Layer Melon",
+                            "value": 3,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/25be18f58ae048bbaad8ff9c04909cb9_Background Layer Melon.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "f48fd376-f9e8-4e22-901b-72a792c5df64",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/25be18f58ae048bbaad8ff9c04909cb9_Background Layer Melon.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Do you know where your food comes from",
+                            "name": "HEADLINE - Do you know where your food comes from",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/12fa3992c048468b86dc7a865bdfeee2_HEADLINE - Do you know where your food comes from.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "b3d941ac-805d-4ddf-8fe4-e02662ca1bb2",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/12fa3992c048468b86dc7a865bdfeee2_HEADLINE - Do you know where your food comes from.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                            "name": "Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                            "value": 6,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5d4d1368be634adb83ccbdda0f838de7_Sub-Header - Prefer Big Grocery Chains_ Keep Walking.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "3337cd8f-dd3e-4e82-8fb0-81c0fe89e3a6",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5d4d1368be634adb83ccbdda0f838de7_Sub-Header - Prefer Big Grocery Chains_ Keep Walking.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Grocery",
+                            "name": "Image Layer_ Grocery",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b0fff0b00bb74254bd6575e5eccd104f_Image Layer_ Grocery.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "70dc077e-4567-4e15-87bd-65510af6fd61",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b0fff0b00bb74254bd6575e5eccd104f_Image Layer_ Grocery.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Georgia Farms Delivered",
+                            "name": "CTA - Georgia Farms Delivered",
+                            "value": 4,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4a8e569a34ab4d17942283da48375e94_CTA - Georgia Farms Delivered.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "5d65d207-857b-45ec-be92-1531fe9d8d43",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/4a8e569a34ab4d17942283da48375e94_CTA - Georgia Farms Delivered.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 15.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Georgia Farms Delivered",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Grocery",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Do you know where your food comes from",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Melon",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Prefer Big Grocery Chains_ Keep Walking"
+                    },
+                    "show_layer_background": true
+                }
+            },
+            {
+                "id": "639275f8-06b2-4eda-96c2-669a3df2cbdf",
+                "saved_design_id": "15a0801a-1e01-4e3d-a431-26abf857cc9f",
+                "name": "#3 Bottom Combination",
+                "design_type": "configurator",
+                "study_type": "layer",
+                "metric": "Bottom Up",
+                "segment_label": "Overall",
+                "selection_count": 5,
+                "total_coefficient": 15.0,
+                "position": 6,
+                "configuration": {
+                    "metric": "Bottom Up",
+                    "segment": {
+                        "id": "(B) Overall",
+                        "label": "Overall",
+                        "section_key": "(B) Overall"
+                    },
+                    "study_type": "layer",
+                    "aspect_ratio": "9 / 16",
+                    "background_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/7df7746bec9448db8c0ff330296e3ac6_Background Layer.png",
+                    "selected_elements": [
+                        {
+                            "id": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Lemon",
+                            "name": "Background Layer Lemon",
+                            "value": 3,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9c2f80fc64214b3da863a9158bff4c32_Background Layer Lemon.png",
+                            "z_index": 0,
+                            "category": "Backgrounds",
+                            "image_id": "62971151-3579-4c79-87e3-e347d69f0684",
+                            "layer_id": "48123f60-3686-4bb8-8570-39ba7543180e",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/9c2f80fc64214b3da863a9158bff4c32_Background Layer Lemon.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Do you know where your food comes from",
+                            "name": "HEADLINE - Do you know where your food comes from",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/12fa3992c048468b86dc7a865bdfeee2_HEADLINE - Do you know where your food comes from.png",
+                            "z_index": 1,
+                            "category": "Headlines",
+                            "image_id": "b3d941ac-805d-4ddf-8fe4-e02662ca1bb2",
+                            "layer_id": "16740073-1653-40c3-b76d-629947aed5dd",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/12fa3992c048468b86dc7a865bdfeee2_HEADLINE - Do you know where your food comes from.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "16740073-1653-40c3-b76d-629947aed5dd::Headlines",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                            "name": "Sub-Header - Prefer Big Grocery Chains_ Keep Walking",
+                            "value": 6,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5d4d1368be634adb83ccbdda0f838de7_Sub-Header - Prefer Big Grocery Chains_ Keep Walking.png",
+                            "z_index": 2,
+                            "category": "Sub Headers",
+                            "image_id": "3337cd8f-dd3e-4e82-8fb0-81c0fe89e3a6",
+                            "layer_id": "db2aca63-6e82-4589-b0e8-a4719dc80eed",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/5d4d1368be634adb83ccbdda0f838de7_Sub-Header - Prefer Big Grocery Chains_ Keep Walking.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Grocery",
+                            "name": "Image Layer_ Grocery",
+                            "value": 1,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b0fff0b00bb74254bd6575e5eccd104f_Image Layer_ Grocery.png",
+                            "z_index": 3,
+                            "category": "Images",
+                            "image_id": "70dc077e-4567-4e15-87bd-65510af6fd61",
+                            "layer_id": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/b0fff0b00bb74254bd6575e5eccd104f_Image Layer_ Grocery.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images",
+                            "element_type": ""
+                        },
+                        {
+                            "id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Good for People and the Planet",
+                            "name": "CTA - Good for People and the Planet",
+                            "value": 4,
+                            "content": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                            "z_index": 4,
+                            "category": "CTA",
+                            "image_id": "d5f027d3-462f-475d-bb37-c6423a26b30a",
+                            "layer_id": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8",
+                            "image_url": "https://tikuntechwebimages.blob.core.windows.net/mindsurvey/studies/e04d1df5fdc74848bcf1fd5273520ceb_CTA - Good for People and the Planet.png",
+                            "transform": {
+                                "x": 0,
+                                "y": 0,
+                                "width": 100,
+                                "height": 100
+                            },
+                            "category_key": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA",
+                            "element_type": ""
+                        }
+                    ],
+                    "total_coefficient": 15.0,
+                    "selected_by_category": {
+                        "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA": "eed324ac-a4a5-4bbd-bbc0-eb358da3aee8::CTA::CTA - Good for People and the Planet",
+                        "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images": "511c803f-9d5f-49af-9f25-d7f0b6b2c0d8::Images::Image Layer_ Grocery",
+                        "16740073-1653-40c3-b76d-629947aed5dd::Headlines": "16740073-1653-40c3-b76d-629947aed5dd::Headlines::HEADLINE - Do you know where your food comes from",
+                        "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds": "48123f60-3686-4bb8-8570-39ba7543180e::Backgrounds::Background Layer Lemon",
+                        "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers": "db2aca63-6e82-4589-b0e8-a4719dc80eed::Sub Headers::Sub-Header - Prefer Big Grocery Chains_ Keep Walking"
+                    },
+                    "show_layer_background": true
+                }
+            }
+        ]
+    }
+]
