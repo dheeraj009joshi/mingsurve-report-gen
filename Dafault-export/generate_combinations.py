@@ -32,6 +32,12 @@ def main() -> None:
         help="Optional analysis JSON for the baseline and sample size. Matched by study id when omitted.",
     )
     parser.add_argument("--skip-images", action="store_true", help="Build the deck without downloading artwork.")
+    parser.add_argument(
+        "--study-type",
+        choices=("layer", "grid", "text", "hybrid"),
+        default=None,
+        help="layer, grid, text, or hybrid. Read from the saved items or the study file when omitted.",
+    )
     args = parser.parse_args()
     if not args.combinations.exists():
         raise SystemExit(f"File not found: {args.combinations}")
@@ -45,6 +51,7 @@ def main() -> None:
         output,
         analysis_path=args.analysis,
         download_images=not args.skip_images,
+        study_type=args.study_type,
     )
     print(f"Wrote {destination}")
 
