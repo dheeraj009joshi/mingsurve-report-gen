@@ -10,12 +10,10 @@ from __future__ import annotations
 
 import json
 import re
-import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import quote
 
 from pptx import Presentation
 from pptx.chart.data import CategoryChartData
@@ -26,7 +24,8 @@ from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
 from pptx.util import Emu, Inches, Pt
 from PIL import Image
 
-from reportgen.composite import composite_pack
+from reportgen.composite import composite_pack, contain_size, file_aspect
+from reportgen.study import fetch_image
 from reportgen.theme import (
     BLUSH,
     FONT,
@@ -442,11 +441,7 @@ def _download(groups: list[Group], cache: Path) -> None:
 
     def fetch(item: tuple[str, Path, str]):
         key, dest, url = item
-        if dest.exists() and dest.stat().st_size > 0:
-            return key, dest
-        request = urllib.request.Request(quote(url, safe=":/?#[]@!$&'()*+,;=%"), headers={"User-Agent": "presentation-generator"})
-        with urllib.request.urlopen(request, timeout=40) as response:
-            dest.write_bytes(response.read())
+        fetch_image(dest, url)
         return key, dest
 
     saved: dict[str, Path] = {}
@@ -801,13 +796,13 @@ def _thumbnail_panel(slide, study: StudyInfo, builds: list[Build], kind: str, x,
         cell_y = y + row * cell_h
         image = _render(study, build)
         max_w = cell_w - 0.18
-        thumb_h = min(cell_h - 1.05, max_w / study.aspect)
-        thumb_w = thumb_h * study.aspect
+        max_h = max(0.4, cell_h - 1.05)
+        thumb_w, thumb_h = contain_size(file_aspect(image) if image else study.aspect, max_w, max_h)
         block_h = thumb_h + 0.78
         left = cell_x + (cell_w - thumb_w) / 2
         top = cell_y + max(0.14, (cell_h - block_h) / 2)
         if image:
-            slide.shapes.add_picture(str(image), Inches(left), Inches(top), Inches(thumb_w), Inches(thumb_h))
+            _place_picture(slide, image, left, top, thumb_w, thumb_h)
         label_top = top + thumb_h + 0.08
         _text(
             slide, _variant_label(builds, build),
@@ -900,10 +895,7 @@ def _pack(presentation, study: StudyInfo, group: Group, build: Build, headline: 
             _place_grid_images(slide, build)
         else:
             image = _render(study, build)
-            pack_h = 6.44
-            pack_w = pack_h * study.aspect
-            if image:
-                slide.shapes.add_picture(str(image), Inches(9.20), Inches(0.46), Inches(pack_w), Inches(pack_h))
+            _place_picture(slide, image, 9.20, 0.46, 3.85, 6.44)
 
     places = "three decimals" if digits == 3 else "one decimal"
     _text(slide, _sample_line(study, group, kind, short=True), 0.75, 7.18, 4.6, 0.20, size=7, color=_MUTED)
@@ -1060,20 +1052,18 @@ def _statement_height(text: str, width_in: float, size: float) -> float:
     return max(0.42, lines * (size / 72 * 1.4) + 0.1)
 
 
-def _place_fit(slide, path: Path, x, y, max_w, max_h) -> None:
-    try:
-        with Image.open(path) as image:
-            aspect = image.width / image.height if image.height else 1
-    except OSError:
+def _place_picture(slide, path: Path | None, x, y, max_w, max_h) -> None:
+    """Fit a picture in the box. Width and height always keep the file's aspect."""
+    if path is None or not Path(path).exists():
         return
-    width = max_h * aspect
-    height = max_h
-    if width > max_w:
-        width = max_w
-        height = width / aspect if aspect else max_h
+    width, height = contain_size(file_aspect(path), max_w, max_h)
     left = x + max(0, (max_w - width) / 2)
     top = y + max(0, (max_h - height) / 2)
     slide.shapes.add_picture(str(path), Inches(left), Inches(top), Inches(width), Inches(height))
+
+
+def _place_fit(slide, path: Path, x, y, max_w, max_h) -> None:
+    _place_picture(slide, path, x, y, max_w, max_h)
 
 
 def _place_element_list(slide, build: Build, digits: int = 1):
@@ -1152,7 +1142,7 @@ def _render(study: StudyInfo, build: Build) -> Path | None:
         return None
     cache_root = layers[0].parent
     key = "-".join(re.sub(r"[^A-Za-z0-9]+", "_", part)[:40] for part in build.signature())
-    return composite_pack(layers, cache_root.parent / "composites" / f"{key}.png", aspect=study.aspect)
+    return composite_pack(layers, cache_root.parent / "composites" / f"{key}.png")
 
 
 def _sample_line(study: StudyInfo, group: Group, kind: str, short: bool = False) -> str:

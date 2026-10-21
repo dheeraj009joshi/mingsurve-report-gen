@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+import urllib.error
 import urllib.request
 from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -22,6 +23,7 @@ class Element:
     z_index: int = 0
     image_url: str | None = None
     image_path: Path | None = None
+    segment_lifts: dict[str, float] = field(default_factory=dict)
 
 
 @dataclass
@@ -45,6 +47,20 @@ class Category:
 
 
 @dataclass
+class Segment:
+    key: str
+    option: str
+    label: str
+    base_size: int
+
+
+@dataclass
+class ClassQuestion:
+    text: str
+    segments: list[Segment] = field(default_factory=list)
+
+
+@dataclass
 class Study:
     title: str
     launched_label: str
@@ -64,6 +80,7 @@ class Study:
     age_distribution: list[tuple[str, int]]
     gender_distribution: list[tuple[str, int]]
     study_type: str = "layer"
+    classifications: list[ClassQuestion] = field(default_factory=list)
     background_path: Path | None = None
     brand_logo: Path | None = None
     blocked: set[frozenset[str]] = field(default_factory=set)
@@ -161,6 +178,7 @@ def load_study(
         age_distribution=_pairs(dashboard.get("ageDistribution")),
         gender_distribution=_pairs(dashboard.get("genderDistribution")),
         study_type=kind,
+        classifications=_load_classifications(analysis, categories),
         blocked=_load_constraints(source, categories),
     )
 
@@ -219,6 +237,62 @@ def category_story(category: Category) -> tuple[str, str, str]:
         f"Key read: {best.label} is the strongest {silo} direction "
         f"({ _signed(best.lift) }). The gap to {worst.label} is { _signed(category.spread) } points."
     )
+    return headline, detail, key
+
+
+def _gap_name(label: str) -> str:
+    """Shorter name for the key line. “Dove users” reads as “users” beside “non-users”."""
+    text = label.lower()
+    if text.endswith(" users"):
+        return "users"
+    return text
+
+
+def _favor(label: str) -> str:
+    return "favor" if label.endswith("s") else "favors"
+
+
+def classification_story(category: Category, question: ClassQuestion) -> tuple[str, str, str]:
+    """Headline, detail, and key read for one classification question."""
+
+    def lift(element: Element, segment: Segment) -> float:
+        return float(element.segment_lifts.get(segment.key, 0.0))
+
+    leaders = []
+    for segment in question.segments:
+        best = max(category.elements, key=lambda element: lift(element, segment))
+        leaders.append((segment, best))
+    leader_names = {best.label for _segment, best in leaders}
+    several = len(question.segments) != 2
+    groups = "every group" if several else "both groups"
+    if len(leader_names) == 1:
+        leader = leaders[0][1]
+        weakest = min(
+            category.elements,
+            key=lambda element: max(lift(element, segment) for segment in question.segments),
+        )
+        headline = f"{leader.label} leads in {groups}"
+        if weakest.label == leader.label:
+            detail = f"{leader.label} leads {groups}."
+        else:
+            detail = f"{leader.label} leads {groups}; {weakest.label} ranks last."
+        rank = f"{'Every group ranks' if several else 'Both groups rank'} {leader.label} first."
+    else:
+        headline = f"{category.label} splits across the groups"
+        detail = "; ".join(
+            f"{segment.label} {_favor(segment.label)} {best.label}" for segment, best in leaders
+        ) + "."
+        rank = detail.rstrip(".") + "."
+
+    def spread(element: Element) -> float:
+        values = [lift(element, segment) for segment in question.segments]
+        return max(values) - min(values)
+
+    widest = max(category.elements, key=spread)
+    gap = " / ".join(
+        f"{_signed(lift(widest, segment))} {_gap_name(segment.label)}" for segment in question.segments
+    )
+    key = f"{rank} The widest segment gap is {widest.label}: {gap}."
     return headline, detail, key
 
 
@@ -353,6 +427,82 @@ def _pairs(rows) -> list[tuple[str, int]]:
     return pairs
 
 
+def _legend_label(question: str, option: str) -> str:
+    """Yes/No on a usage question reads as users and non-users. Other answers stay as written."""
+    choice = option.strip()
+    if not re.search(r"\b(use|using|user)\b", question, flags=re.IGNORECASE):
+        return choice
+    if choice.lower() == "no":
+        return "Non-users"
+    if choice.lower() == "yes":
+        match = re.search(r"\buse\s+(.+?)\s*\??$", question.strip(), flags=re.IGNORECASE)
+        brand = match.group(1).strip(" ?.") if match else ""
+        brand = re.sub(r"\s+", " ", brand)
+        if brand:
+            return f"{brand[:1].upper()}{brand[1:]} users"
+        return "Users"
+    return choice
+
+
+def _order_segments(segments: list[Segment]) -> list[Segment]:
+    """Non-users sit on the first, darker series, then users, matching the readout."""
+    by_option = {segment.option.lower(): segment for segment in segments}
+    if set(by_option) == {"yes", "no"}:
+        return [by_option["no"], by_option["yes"]]
+    return segments
+
+
+def _load_classifications(analysis: dict, categories: list[Category]) -> list[ClassQuestion]:
+    """One legend per classification question. Gender and age are separate cuts."""
+    block = analysis.get("(T) Classification Questions") or {}
+    if not isinstance(block, dict):
+        return []
+    raw_questions = [item for item in (block.get("questions") or []) if isinstance(item, dict)]
+    shared_categories = block.get("categories") if isinstance(block.get("categories"), list) else []
+    by_code = {element.code: element for category in categories for element in category.elements}
+    loaded: list[ClassQuestion] = []
+    for raw in raw_questions:
+        text = str(raw.get("question_text") or "").strip()
+        if not text:
+            continue
+        segments = []
+        for option, info in (raw.get("segments") or {}).items():
+            option_text = str(option).strip()
+            if not option_text:
+                continue
+            base = int((info or {}).get("base_size") or 0) if isinstance(info, dict) else 0
+            segments.append(Segment(
+                key=f"{text}::{option_text}",
+                option=option_text,
+                label=_legend_label(text, option_text),
+                base_size=base,
+            ))
+        segments = _order_segments(segments)
+        if len(segments) < 2:
+            continue
+        question = ClassQuestion(text=text, segments=segments)
+        tables = raw.get("categories") if isinstance(raw.get("categories"), list) else shared_categories
+        prefix = f"{text}::"
+        found = False
+        for table in tables or []:
+            if not isinstance(table, dict):
+                continue
+            for item in table.get("elements") or []:
+                element = by_code.get(str(item.get("code") or ""))
+                if element is None:
+                    continue
+                for key, cell in (item.get("values") or {}).items():
+                    if not str(key).startswith(prefix) or not isinstance(cell, dict):
+                        continue
+                    if "value" not in cell:
+                        continue
+                    element.segment_lifts[str(key)] = float(cell.get("value") or 0)
+                    found = True
+        if found:
+            loaded.append(question)
+    return loaded
+
+
 def _load_constraints(analysis_path: Path, categories: list[Category]) -> set[frozenset[str]]:
     """Pairs that cannot appear on the same design.
 
@@ -387,58 +537,103 @@ def _load_constraints(analysis_path: Path, categories: list[Category]) -> set[fr
 
 
 def legal_picks(study: Study, choose: str) -> list[Element]:
-    """One element per silo. Highest or lowest total lift that keeps every blocked pair apart.
+    """One element per silo, with pairing rules applied.
 
-    With no pairing rules this is the best or worst element in each silo.
-    On a tie, the element earlier in the (T) list stays.
+    With no rules this is the best or worst element in each silo. With rules,
+    the best pack is the highest coefficient sum that contains no blocked pair.
+    A strong element is left off when the elements it blocks add up to more.
+    The weak pack is the lowest sum that still fills every silo it can.
     """
-    categories = sorted(study.categories, key=lambda category: min(element.z_index for element in category.elements))
+    categories = sorted(study.categories, key=lambda category: min((element.z_index for element in category.elements), default=0))
+    prefer_high = choose == "best"
+    if not any(category.elements for category in categories):
+        return []
     if not study.blocked:
-        return [category.best if choose == "best" else category.worst for category in categories]
+        return [category.best if prefer_high else category.worst for category in categories if category.elements]
+    return _search_legal_pack(categories, study.blocked, prefer_high)
 
-    catalog = []
+
+def _search_legal_pack(categories: list[Category], blocked: set[frozenset[str]], prefer_high: bool) -> list[Element]:
+    """Branch over each silo and keep the legal pack with the best total.
+
+    The high pack may skip a silo, because leaving a blocker off can raise the
+    sum. The low pack skips a silo only when every element in it is blocked.
+    """
+    elements: list[Element] = []
+    groups: list[list[int]] = []
+    index: dict[str, int] = {}
     for category in categories:
-        ranked = sorted(
-            enumerate(category.elements),
-            key=lambda item: item[1].lift,
-            reverse=choose == "best",
-        )
-        catalog.append(ranked)
+        group: list[int] = []
+        for element in category.elements:
+            index[element.name] = len(elements)
+            group.append(len(elements))
+            elements.append(element)
+        groups.append(group)
+    conflicts: list[set[int]] = [set() for _ in elements]
+    for pair in blocked:
+        names = [name for name in pair if name in index]
+        if len(names) != 2:
+            continue
+        left, right = index[names[0]], index[names[1]]
+        conflicts[left].add(right)
+        conflicts[right].add(left)
 
-    best: tuple | None = None
-    winner: list[Element] = []
+    order = list(range(len(groups)))
+    if prefer_high:
+        order.sort(key=lambda slot: max((elements[item].lift for item in groups[slot]), default=0.0), reverse=True)
 
-    def allowed(chosen: list[Element], candidate: Element) -> bool:
-        return all(frozenset((previous.name, candidate.name)) not in study.blocked for previous in chosen)
+    best_key: tuple[float, int] | None = None
+    best_pick: list[int] = []
 
-    def search(index: int, chosen: list[Element], total: float, order: tuple[int, ...]) -> None:
-        nonlocal best, winner
-        if index == len(catalog):
-            mark = (total, tuple(-step for step in order)) if choose == "best" else (-total, tuple(-step for step in order))
-            if best is None or mark > best:
-                best = mark
-                winner = list(chosen)
-            return
-        if best is not None:
-            if choose == "best":
-                ceiling = total + sum(item[1].lift for item in (row[0] for row in catalog[index:]))
-                if ceiling < best[0] - 1e-9:
-                    return
-            else:
-                floor = total + sum(min(element.lift for _, element in row) for row in catalog[index:])
-                if -floor < best[0] - 1e-9:
-                    return
-        for rank, element in catalog[index]:
-            if not allowed(chosen, element):
+    def consider(pick: list[int], score: float) -> None:
+        nonlocal best_key, best_pick
+        key = (score if prefer_high else -score, len(pick))
+        if best_key is None or key > best_key:
+            best_key = key
+            best_pick = list(pick)
+
+    def bound(idx: int, forbidden: set[int], current: float) -> float:
+        total = current
+        for slot in order[idx:]:
+            options = [elements[item].lift for item in groups[slot] if item not in forbidden]
+            if not options:
                 continue
-            chosen.append(element)
-            search(index + 1, chosen, total + element.lift, order + (rank,))
-            chosen.pop()
+            if prefer_high:
+                lift = max(options)
+                if lift > 0:
+                    total += lift
+            else:
+                total += min(options)
+        return total
 
-    search(0, [], 0.0, ())
-    if winner:
-        return winner
-    return [category.best if choose == "best" else category.worst for category in categories]
+    def walk(idx: int, forbidden: set[int], current: float, pick: list[int]) -> None:
+        if idx == len(order):
+            consider(pick, current)
+            return
+        limit = None if best_key is None else best_key[0]
+        estimate = bound(idx, forbidden, current)
+        if limit is not None and (estimate if prefer_high else -estimate) < limit - 1e-9:
+            return
+        options = [item for item in groups[order[idx]] if item not in forbidden]
+        options.sort(key=lambda item: elements[item].lift, reverse=prefer_high)
+        for item in options:
+            lift = elements[item].lift
+            if prefer_high and lift <= 0:
+                continue
+            nxt = set(forbidden)
+            nxt.add(item)
+            nxt.update(conflicts[item])
+            pick.append(item)
+            walk(idx + 1, nxt, current + lift, pick)
+            pick.pop()
+        if prefer_high or not options:
+            walk(idx + 1, forbidden, current, pick)
+
+    walk(0, set(), 0.0, [])
+    chosen = [elements[item] for item in best_pick]
+    layer = {element.name: position for position, category in enumerate(categories) for element in category.elements}
+    chosen.sort(key=lambda element: layer.get(element.name, 0))
+    return chosen
 
 
 def _resolve_study_type(explicit: str | None, payload: dict, info: dict) -> str:
@@ -466,6 +661,46 @@ def _artwork_index(categories) -> dict[str, dict]:
             if element.get("alt_text"):
                 index.setdefault(str(element["alt_text"]), meta)
     return index
+
+
+def fetch_image(dest: Path, url: str) -> None:
+    """Save artwork locally, and replace it when the file at that URL has changed.
+
+    A previous download is kept only when the server says it is unchanged.
+    The first time a file is cached there is no record of which version it
+    was, so it is downloaded again.
+    """
+    meta_path = dest.with_name(dest.name + ".meta")
+    meta: dict = {}
+    if meta_path.exists():
+        try:
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            meta = {}
+    headers = {"User-Agent": "presentation-generator"}
+    fresh = dest.exists() and dest.stat().st_size > 0 and meta.get("url") == url
+    if fresh and meta.get("etag"):
+        headers["If-None-Match"] = str(meta["etag"])
+    elif fresh and meta.get("last_modified"):
+        headers["If-Modified-Since"] = str(meta["last_modified"])
+    request = urllib.request.Request(quote(url, safe=":/?#[]@!$&'()*+,;=%"), headers=headers)
+    try:
+        with urllib.request.urlopen(request, timeout=40) as response:
+            dest.write_bytes(response.read())
+            meta_path.write_text(
+                json.dumps(
+                    {
+                        "url": url,
+                        "etag": response.headers.get("ETag"),
+                        "last_modified": response.headers.get("Last-Modified"),
+                    }
+                ),
+                encoding="utf-8",
+            )
+    except urllib.error.HTTPError as exc:
+        if exc.code == 304 and fresh:
+            return
+        raise
 
 
 def _http_url(value) -> str | None:
@@ -496,11 +731,7 @@ def _download_assets(study: Study, background_url: str | None, cache: Path) -> N
 
     def fetch(item: tuple[str, Path, str]):
         key, dest, url = item
-        if dest.exists() and dest.stat().st_size > 0:
-            return key, dest
-        request = urllib.request.Request(quote(url, safe=":/?#[]@!$&'()*+,;=%"), headers={"User-Agent": "presentation-generator"})
-        with urllib.request.urlopen(request, timeout=40) as response:
-            dest.write_bytes(response.read())
+        fetch_image(dest, url)
         return key, dest
 
     with ThreadPoolExecutor(max_workers=8) as pool:
